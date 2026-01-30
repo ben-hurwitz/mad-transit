@@ -1,0 +1,523 @@
+:root {
+  --bg: #ffffff;
+  --panel: #f6f6f6;
+  --border: #e5e7eb;
+  --shadow-soft: 0 12px 30px rgba(15, 23, 42, 0.12);
+  --brand-red: #ff0000;
+  --text-main: #000000;
+  --text-muted: #4b5563;
+}
+
+body{
+  background-color: #94A6B9;
+}
+
+.home-root {
+  min-height: 100vh;
+  background: var(--bg);
+  box-sizing: border-box;
+}
+
+/* Main content now takes full width */
+.home-phone {
+  width: 100vw;
+  max-width: none;
+  margin: 0;
+  background-image: url(./assets/mtv3homebackgroundDAY.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  padding: 20px clamp(16px, 5vw, 48px) 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 100vh;
+}
+
+
+/* Header */
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-logo-square {
+  width: 38px;
+  height: 38px;
+  border-radius: 6px;
+  background: var(--brand-red);
+  background-image: url(./assets/btv2logowhite.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-wordmark{
+  display: flex;
+}
+
+.home-logo-text-main{
+  color: #000;
+  font-family: "Mona Sans";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.75px;
+}
+.home-logo-text-sub {
+  padding-top: 2px;
+  color: #000;
+  font-family: "Mona Sans";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.75px;
+
+  /* WIDTH: 100% is normal, 125% is max for Mona Sans */
+  font-stretch: 1000%;
+}
+
+
+.home-logo-text-sub {
+  margin-top: -2px;
+}
+
+.home-clock {
+  padding-top: 1px;
+  text-align: right;
+  min-width: 120px;
+}
+
+.home-clock-date {
+  color: #000;
+  font-family: "Mona Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.75px;
+}
+
+.home-clock-time {
+  color: #000;
+  font-family: "Mona Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.75px;
+}
+
+/* Hero text */
+
+.home-hero {
+  margin-top: 4px;
+}
+
+/* Cards */
+
+.home-card-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 14px;
+  background: var(--panel);
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.07);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+}
+
+.home-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.12);
+  background: #f3f4f6;
+}
+
+.home-card-tall {
+  margin-top: 4px;
+}
+
+.home-card-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* little variations so they don't all look identical */
+.home-card-icon-star {
+  background-image: url(./assets/5btv2clock.svg);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
+}
+
+.home-card-icon-map {
+  background-image: url(./assets/5btv2map.svg);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
+}
+
+.home-card-icon-location {
+  background-image: url(./assets/5btv2location.svg);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
+}
+
+.home-card-icon-saved {
+  background-image: url(./assets/5btv2favorites.svg);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
+}
+
+.home-card-icon-search {
+  background-image: url(./assets/5btv2search.svg);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
+}
+
+.home-card-icon-routes{
+  background-image: url(./assets/5btv2routes.svg);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
+}
+
+.home-card-icon-launch{
+  background-image: url(./assets/5btv2launch.svg);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
+}
+
+.home-card-title {
+  margin:0;
+  color: #000;
+  font-family: "Mona Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -1%;
+}
+
+
+/* Notice panels */
+
+.home-notice {
+  background: var(--panel);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.home-notice.secondary {
+  margin-top: -4px;
+}
+
+.home-notice-title {
+  margin: 0 0 6px;
+  color: #000;
+  font-family: "Mona Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 15px;
+}
+
+.home-notice-body {
+  margin: 0;
+  color: var(--text-muted);
+  font-family: "Mona Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+/* Footer */
+
+.home-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+.home-footer-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-logo-small-square {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background: var(--brand-red);
+}
+
+.home-footer-brand {
+  font-size: 18px;
+}
+
+.home-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.home-footer-link {
+  border: none;
+  background: transparent;
+  padding: 0;
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--text-main);
+}
+
+.home-footer-meta {
+  color: var(--text-muted);
+}
+
+/* Header */
+
+.home-header {
+  display: flex;
+  flex-direction: column;  /* stack logo/time and nav */
+  align-items: stretch;    /* header children take full width */
+  gap: 1px;
+
+  position: sticky;  /* 👈 makes it stick */
+  top: 0;            /* 👈 stick to top of viewport */
+  z-index: 10;       /* stay above cards/content */
+  background: #fff;  /* so content doesn't show through */
+  margin-left: -2px;
+  margin-right: -2px;
+  padding-bottom: 5px;
+}
+
+
+/* row that holds logo + clock */
+.home-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}  
+
+/* --- NAV BAR --- */
+
+.home-nav {
+display: flex;
+width: 100%;            /* span across header */
+gap: 2px;               /* spacing between tabs */
+padding-top: 0px;
+}
+
+.home-nav-tab {
+flex: 1 1 0;            /* each tab gets equal share of width */
+text-align: center;
+padding: 3px 0;
+border-radius: 8px;
+background: #F6F6F6;
+
+/* NavButton */
+box-shadow: 0 1px 0.8px 0 rgba(140, 138, 138, 0.23);
+font-family: "Mona Sans";
+font-size: 15px;
+font-weight: 500;
+letter-spacing: -0.03em;
+text-decoration: none;
+color: #000;
+transition:
+  background 0.3s ease,
+  box-shadow 0.3s ease,
+  transform 0.36s ease;
+}
+
+.home-nav-tab--active {
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0 1.5px 1px 0 rgba(45, 45, 45, 0.15) inset;
+}
+
+
+.home-nav-tab:hover {
+transform: translateY(0px);
+background: #FFF;
+box-shadow: 0 1.5px 1px 0 rgba(45, 45, 45, 0.15) inset;
+color: #000;
+}
+
+.home-phone {
+position: relative; /* if not already present */
+}
+
+/* === SmartLaunch toast card === */
+
+.smartlaunch-toast {
+position: absolute;
+top: 5.5rem;
+left: 50%;
+transform: translateX(-50%);
+z-index: 20;
+pointer-events: none;
+font-family: "Mona Sans";
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+}
+
+.smartlaunch-toast-inner {
+width: 220px;
+padding: 1.5rem 1.25rem 1.25rem;
+border-radius: 1.6rem;
+background: #ffffff;
+box-shadow: 0 18px 35px rgba(0, 0, 0, 0.15);
+text-align: center;
+font-family: inherit;
+animation: smartlaunch-drop 0.35s ease-out;
+}
+
+/* Circle with countdown progress ring + arrow */
+.smartlaunch-toast-icon-circle {
+width: 88px;
+height: 88px;
+margin: 0 auto 0.8rem;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* SVG circular progress */
+.smartlaunch-progress-svg {
+position: absolute;
+inset: 0;
+width: 88px;
+height: 88px;
+--size: 100px;
+--half-size: 44px;
+--stroke-width: 6px;
+--radius: 41px;
+--circumference: 257.61;
+--dash: calc((var(--progress) * var(--circumference)) / 100);
+animation: smartlaunch-progress-animation 1s linear 0s 1 forwards;
+}
+
+.smartlaunch-progress-svg circle {
+cx: var(--half-size);
+cy: var(--half-size);
+r: var(--radius);
+stroke-width: var(--stroke-width);
+fill: none;
+stroke-linecap: round;
+}
+
+.smartlaunch-progress-svg circle.bg {
+stroke: #e5e5e5;
+}
+
+.smartlaunch-progress-svg circle.fg {
+transform: rotate(-90deg);
+transform-origin: var(--half-size) var(--half-size);
+stroke-dasharray: var(--dash) calc(var(--circumference) - var(--dash));
+transition: stroke-dasharray 0.1s linear 0s;
+stroke: #111111;
+}
+
+.smartlaunch-toast-icon-arrow {
+font-size: 1.9rem;
+position: relative;
+z-index: 1;
+}
+
+.smartlaunch-toast-stop-id {
+font-weight: 700;
+font-size: 1.5rem;
+margin-bottom: 0.9rem;
+color: #111111;
+}
+
+/* Pill button */
+.smartlaunch-toast-button {
+display: inline-block;
+padding: 0.45rem 1.8rem;
+border-radius: 999px;
+border: none;
+background: #111111;
+color: #ffffff;
+font-size: 0.95rem;
+font-weight: 500;
+cursor: pointer;
+pointer-events: auto;
+transition: background 0.2s ease;
+}
+
+.smartlaunch-toast-button:hover {
+background: #333333;
+}
+
+/* Drop-in animation from top */
+@keyframes smartlaunch-drop {
+from {
+  transform: translateY(-40px);
+  opacity: 0;
+}
+to {
+  transform: translateY(0);
+  opacity: 1;
+}
+}
+
+/* CSS Custom Property for smooth progress */
+@property --progress {
+syntax: "<number>";
+inherits: false;
+initial-value: 0;
+}
+
+/* Smooth countdown animation - 0 to 100% over 2 seconds */
+@keyframes smartlaunch-progress-animation {
+from {
+  --progress: 0;
+}
+to {
+  --progress: 100;
+}
+}
+
+.home-footer-link {
+text-decoration: underline;
+cursor: pointer;
+color: var(--text-main);
+background: none;
+border: none;
+padding: 0;
+font-size: 13px;
+font-family: inherit;
+}

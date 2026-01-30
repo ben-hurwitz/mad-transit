@@ -1,0 +1,38 @@
+/*deprecated use Map.css*/
+
+/*This is what was here prior::after
+.location-button{
+    width: 52px;
+  height: 52px;
+  border-radius: 26.5px;
+  border: 0.8px solid var(--New-Button, #DEDEDE);
+  background: rgba(0, 0, 0, 0.20);
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.50);
+  backdrop-filter: blur(2px); 
+  background-image: url(../assets/mylocationmtv3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 999;
+  top: 320px; /* Below the locate button 
+  right: 16px;
+  transform: scale(0.95);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.location-button:hover{
+  background-image: url(../assets/mylocationmtv3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scale(1.05);
+}
+
+.map-view-root {
+  width: 100%;
+  height: 100%; /* This will now be 100% of the 150vh parent 
+  position: relative;
+}
+*/

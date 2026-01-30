@@ -1,0 +1,1774 @@
+/* src/Stop.css */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  padding: 5px 0px 0;
+  width: 98vw;
+  margin: 0 5px;
+  justify-self: center;
+  background-color:rgba(255, 255, 255, .1);
+}
+
+.header-under-fixed{
+  width: 100%;
+  height: 77px;
+  position: fixed;
+  transform: translateY(-5px);
+  /*background: linear-gradient(180deg, rgba(255, 255, 255, 1)  10%, rgba(255, 255, 255, 0) 100%);*/
+  background-color: #FFF;
+  backdrop-filter: blur(8px); 
+  z-index: 1000;
+}
+
+.header-under {
+  width: 100%;
+  height: 100px;
+}
+.stop-root {
+  min-height: 100vh;
+  background: var(--bg, #ffffff);
+}
+
+.stop-inner {
+  width: 100vw;
+  max-width: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+/* Header */
+.new-stop-header {
+  padding: 5px 0px 0;
+}
+
+.new-stop-header-top {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.header-top-left{
+  display: flex;
+  gap: 5px;
+}
+
+.search-box{
+  width: 100%;
+  display: flex;
+  height: 100%;
+  border-radius: 19px;
+  border: 0.4px solid var(--NavButton, #E9E9E9);
+  background: #FFF;
+
+  /* NewNav */
+  box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
+  padding: 0px 5px;
+  align-items: center;
+}
+
+.search-box:hover {
+  background: #F6F6F6;
+  border-color: #ccc;
+}
+
+.new-stop-logo {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-stop-logo-circle {
+  width: 30px;
+  height: 30px;
+  background-image: url(./assets/mtv3colorblocklogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 19px;
+}
+
+.new-stop-search {
+  flex: 1;
+  height: 100%;
+  border: none;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.2s;
+  padding: 5px;
+  background-color: transparent;
+  
+}
+
+
+.new-stop-search-text {
+  color: #000;
+  font-family: "Mona Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 457;
+  line-height: normal;
+}
+
+.new-stop-notif-btn,
+.new-stop-menu-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 19px;
+  border: 0.4px solid var(--NavButton, #E9E9E9);
+  background: #FFF;
+
+  /* NewNav */
+  box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
+  padding: 0px 5px;
+  align-items: center;
+  
+}
+
+.new-stop-notif-btn:hover,
+.new-stop-menu-btn:hover{
+  background-color: #f5f5f5;
+  border-color: #ccc;
+}
+
+
+.new-stop-notif-btn{
+  background-image: url(./assets/mtv3detouricon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.new-stop-menu-btn{
+  background-image: url(./assets/mtv3hamburgericon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.new-stop-notif-badge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  background: #FF0000;
+  color: white;
+  border-radius: 10px;
+  padding: 2px 6px;
+  font-size: 11px;
+  font-weight: 600;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scale: .9;
+}
+
+.new-stop-nav {
+  display: flex;
+  gap: 1vw;
+  overflow-x: auto;
+  height: 28px;
+  max-height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 12.5px;
+  border: 0.4px solid var(--NavButton, #E9E9E9);
+  background: #FFF;
+  align-items: center;
+
+  /* NewNav */
+  box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
+}
+
+.new-stop-nav-btn {
+  padding: 0px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 12.5px;
+  transition: all 0.2s;
+  width: 24.8%;
+  height: 100%;
+  border: none;
+
+  color: #000;
+  text-align: center;
+  font-family: "Mona Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 457;
+  line-height: normal;
+}
+
+
+.new-stop-nav-btn:hover {
+  border-radius: 12.5px;
+  border: 0.4px solid var(--NavButton, #E9E9E9);
+  box-shadow: 0 1px 1.3px 0 rgba(0, 0, 0, 0.25) inset;
+}
+
+.new-stop-nav-btn-active {
+  border-radius: 12.5px;
+  border: 0.4px solid var(--NavButton, #E9E9E9);
+  background: #F6F6F6;
+  box-shadow: 0 1px 1.3px 0 rgba(0, 0, 0, 0.25) inset;
+}
+
+.divider{
+  height: 50%;
+  width: .8px;
+  background-color: #DEDEDE;
+}
+
+/* column labels */
+
+.stop-label-row {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Mona Sans";
+  font-size: clamp(5px, 10px, 15px);
+  color: #000;
+  padding: 0 4px;
+  
+}
+
+
+.label-row-left{
+  display: flex;
+  gap: 20px;
+}
+
+.label-row-right{
+  display: flex;
+  gap: 35px;
+}
+/* Bus Arrivals Section */
+.new-stop-arrivals {
+  padding: 0 16px;
+}
+
+/* bus cards */
+
+.stop-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bus-card, .bus-card-short {
+  display: flex;
+  align-items: stretch;
+  gap: 5px;
+  height: 70px;
+  border-radius: 15px;
+  background: #F6F6F6;
+  border: 0.4px solid var(--NavButton, #E9E9E9);
+
+
+/* New Button */
+box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
+  
+  transition: height 0.3s ease;
+  padding-right: 5px;
+}
+
+.bus-card-stops-away{
+  margin-top: 5px;
+  align-self: flex-start;
+  line-height: 18px;
+  padding: 0 5px;
+  border-radius: 4px;
+
+  /*text*/
+  color: #232323;
+  font-family: "Mona Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.bus-card-occ-text {
+  font-family: "Mona Sans";
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  margin-top: -5px;
+}
+
+.bus-card-expanded {
+  height: auto;
+  min-height: 66px;
+}
+
+.bus-card-route {
+  box-shadow: -2px -1px 3px 0 rgba(0, 0, 0, 0.25) inset, 2px 1px 2.4px 0 rgba(255, 255, 255, 0.37) inset;
+  margin: 3px;
+  margin-left: 4px;
+  width: 40px;
+  height: 61px;
+  border-radius: 13px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Mona Sans";
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 0px;
+}
+
+.bus-card-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bus-card-left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.bus-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.bus-card-right{
+  padding: 15px;
+}
+
+
+.bus-card-destination {
+  margin-top: 10px;
+  font-family: "Mona Sans";
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.bus-card-eta {
+  margin-top: 10px;
+  font-family: "Mona Sans";
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.bus-card-track {
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-family: "Mona Sans";
+  color: #000;
+}
+
+.bus-card-collapse {
+  width: 42px;
+  height: 42px;
+
+  border-radius: 20px;
+  border: 0.4px solid var(--New-Button, #DEDEDE);
+  background: #FFF;
+
+  /* NewNav */
+  box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
+  
+  cursor: pointer;
+  margin-right: -2px;
+  display: flex;
+
+  
+}
+
+.collapse-chevron {
+  transition: transform 0.4s ease;
+  background-image: url(./assets/mtv3chevrongray.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  55%;
+}
+
+.collapse-chevron-up {
+  transform: rotate(180deg);
+  background-image: url(./assets/mtv3chevrongray.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  55%;
+}
+
+.bus-card-track-short {
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: transparent;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-family: "Mona Sans";
+  color: #000;
+}
+
+/*phone*/
+@media screen and (max-width: 450px) {
+  .stop-inner {
+    width: 100vw;
+    max-width: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    box-sizing: border-box;
+  }
+
+  .bus-card-right{
+    padding: 15px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+  .bus-card-destination {
+    margin-top: 12px;
+    font-family: "Mona Sans";
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .min-bus-card-eta{
+    margin-top: 5px;
+    font-family: "Mona Sans";
+    font-size: 23px;
+    align-self: center;
+    transform: translateY(-2px);
+    font-weight: 700;
+    margin-right: 3px;
+  }
+
+  .bus-card-eta {
+    margin-top: 12px;
+    font-family: "Mona Sans";
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .bus-card-route {
+    margin: 0px;
+    width: 35px;
+    border-radius: 12px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Mona Sans";
+    font-size: 17px;
+    font-weight: 500;
+    margin: 3px;
+    height: 65px;
+  }
+
+  .bus-card-track {
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  padding: 6px 7px;
+  font-size: 13px;
+  font-family: "Mona Sans";
+  color: #000;
+}
+}
+
+.bus-card-expanded-quick-actions{
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.bus-card-expanded-quick-actions-left{
+  display: flex;
+}
+
+/* Countdown Timer */
+.card-countdown-timer {
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(2px); 
+  border-radius: 100px;
+}
+
+.card-countdown-ring {
+  transform: rotate(-90deg);
+}
+
+.card-countdown-ring-circle-bg {
+  fill: none;
+  stroke: #FFF;
+  stroke-width: 2;
+}
+
+.card-countdown-ring-circle {
+  fill: none;
+  stroke: #232323;
+  stroke-width: 2;
+  stroke-dasharray: 138.23; /* 2 * π * 22 */
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s linear;
+  stroke-linecap: round;
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.5));
+}
+
+.card-countdown-number {
+  position: relative;
+  font-family: "Mona Sans", sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #232323;
+  position: absolute;
+  top: 6px;
+  left: 3.5px;
+  width: 25px;
+  text-align: center;
+}
+.bus-card-expanded-quick-actions-right{
+  display: flex;
+  justify-content: space-between;
+}
+.quick-actions-alerts{
+  width: 162px;
+  height: 34px;
+  border-radius: 16px;
+  
+  color: #232323;
+  font-family: "Mona Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 580;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  border: 0.4px solid var(--NavButton, #E9E9E9);
+  background: #FFF;
+
+  /* NewNav */
+  box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
+}
+
+.quick-actions-location{
+  background-color: #232323;
+  width: 162px;
+  height: 34px;
+  border-radius: 16px;
+  
+  color: #FFF;
+  font-family: "Mona Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 580;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  border: 0.4px solid var(--NavButton, #E9E9E9);
+
+  /* NewNav */
+  box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
+}
+
+.location-btn-arrow{
+  height: 18px;
+  width: 23px;
+  background-image: url(./assets/mtv3blockarrowwhite.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.bus-card-expanded-quick-info{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+
+.bus-card-expanded-quick-info-left{
+  display: flex;
+  color: #232323;
+  font-family: "Mona Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 580;
+}
+
+.bus-card-expanded-quick-info-right{
+  display: flex;
+  color: #232323;
+  font-family: "Mona Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bus-card-top {
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.bus-card-times {
+  text-align: right;
+  min-width: 70px;
+}
+
+.network-icon-black{
+  width: 11px;
+  height: 11px;
+  transform: translate(-2px,10px);
+  background-image: url(./assets/zzNetworkIcon\ 597.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  animation: networkCycleBlack 2s infinite steps(1);
+}
+
+
+/* Keyframes */
+@keyframes networkCycleBlack {
+  0% {
+    background-image: url("./assets/zzNetworkIcon596.png");
+  }
+  2% {
+    background-image: url("./assets/zzNetworkIcon 602.png");
+  }
+  4% {
+    background-image: url("./assets/zzNetworkIcon 601.png");
+  }
+  6% {
+    background-image: url("./assets/zzNetworkIcon 600.png");
+  }
+  8% {
+    background-image: url("./assets/zzNetworkIcon 599.png");
+  }
+  10% {
+    background-image: url("./assets/zzNetworkIcon 598.png");
+  }
+  12% {
+    background-image: url("./assets/zzNetworkIcon 597.png");
+  }
+  15% {
+    background-image: url("./assets/zzNetworkIcon596.png");
+  }
+}
+
+.bus-card-bottom {
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/* Occupancy - now on right */
+.bus-card-occupancy {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.bus-card-dots {
+  margin-top: -6px;
+  display: flex;
+  border-color: black;
+  gap: 1px;
+}
+
+.occ-person {
+  width: 10px;
+  height: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  transform: scale(1.1);
+}
+
+.occ-person-filled {
+  background-image: url(./assets/mtv3occpersonfilled.svg);
+}
+
+.occ-person-empty {
+  background-image: url(./assets/mtv3occpersonnotfilled.svg);
+}
+
+.bus-card-sub {
+  font-family: "Mona Sans";
+  margin-top: -12px;
+  font-size: 13px;
+  font-weight: 300;
+  color: black;
+}
+
+.bus-card-expanded-content {
+  padding: 8px 0 4px 0;
+  padding: 5px;
+  animation: slideDown 0.3s ease;
+}
+
+.bus-timeline {
+  height: 100px;
+  width: 100%;
+  background-color: #F6F6F6;
+  box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.37) inset;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.bus-timeline-top{
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3px;
+}
+
+.bus-timeline-top-left{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.arrow-icon{
+  height: 11px;
+  width: 14px;
+  background-image: url(./assets/mtv3blockarrowblack.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:90%;
+}
+
+.live-action{
+  background-color: #FFC400;
+  align-self: center;
+  line-height: 19px;
+  padding: 0 2px;
+  border-radius: 4px;
+
+  /*text*/
+  color: #232323;
+  font-family: "Mona Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+}
+
+.live-action-summary{
+  /*text*/
+  color: #232323;
+  font-family: "Mona Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+}
+
+.bus-timeline-top-right{
+  background-color: #FFC400;
+  align-self: center; 
+  line-height: 19px;
+  padding: 0 2px;
+  border-radius: 4px;
+
+  /*text*/
+  color: #232323;
+  font-family: "Mona Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+
+  /*for now, hide stops away yellow bar on timeline title*/
+  width: 0px;
+  visibility: hidden;
+}
+
+.bus-timeline-bottom{
+  height: 75px;
+  width: 100%;
+  background-color: white;
+  border-radius: 0 0 7px 7px;
+  justify-content: center;
+  padding: 0 5px;
+  box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.37) inset;
+}
+
+.bus-timeline-bottom-content{
+  align-items: center;
+}
+
+.bus-timeline-track {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.bus-timeline-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  z-index: 2;
+}
+
+.bus-timeline-marker-dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 1px #000000;
+  transform: translateX(11px);
+}
+
+.bus-timeline-marker-dot-end{
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 1px #000000;
+  transform: translateX(-11px);
+}
+
+.bus-timeline-marker-label {
+  font-family: "Mona Sans";
+  font-size: 11px;
+  font-weight: 500;
+  color: #000000;
+  white-space: nowrap;
+}
+
+.bus-timeline-progress-container {
+  flex: 1;
+  position: relative;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.bus-timeline-progress-bar {
+  width: 100%;
+  height: 12px;
+  background: #e5e7eb;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.bus-timeline-progress-fill {
+  height: 100%;
+  background: #000000;
+  transition: width 0.5s ease;
+  border-radius: 2px;
+}
+
+.bus-timeline-bus-icon {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  transition: left 0.5s ease;
+  z-index: 1000;
+  filter: drop-shadow(-1px 1px 1.9px rgba(0, 0, 0, 0.41));
+  border-radius: 9px;
+  height: 20px;
+  width: 20px;
+  background-image: url(./assets/mtv3timelinebusicon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bus-timeline-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding: 0 8px;
+}
+
+.bus-timeline-stat {
+  font-family: "Mona Sans";
+  font-size: 11px;
+  color: #6b7280;
+}
+
+/* Intermediate stop markers on timeline */
+.bus-timeline-intermediate-marker {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  z-index: 1;
+}
+
+.bus-timeline-intermediate-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 0 1px black;
+}
+
+.bus-timeline-intermediate-label {
+  font-family: "Mona Sans";
+  font-size: 9px;
+  font-weight: 500;
+  color: black;
+  white-space: nowrap;
+  position: absolute;
+  top: 20px;
+}
+
+.bus-card-placeholder {
+  font-family: "Mona Sans";
+  font-size: 13px;
+  color: #6b7280;
+  font-style: italic;
+}
+
+.bus-view{
+  width: 100%;
+  height: 100px;
+  border-radius: 7px;
+  background-color: #F6F6F6;
+  box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.37) inset;
+}
+
+.bus-view-top{
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+.bus-view-bottom{
+  padding: 0 5px;
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.37) inset;
+}
+
+.bus-view-image{
+  width: 100%;
+  height: 80%;
+  background-image: url(./assets/mtv3nf60bus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bus-view-bottom-text{
+  height: 20%;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* misc states */
+
+.stop-loading,
+.stop-error,
+.stop-empty {
+  font-family: "Mona Sans";
+  font-size: 14px;
+  color: #4b5563;
+}
+
+/* end section + report card */
+
+.stop-end-label {
+  margin-top: 16px;
+  text-align: center;
+  font-family: "Mona Sans";
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.stop-report-card {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stop-report-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 2px solid #111827;
+}
+
+/* small tweak for footer on this page */
+.routes-footer {
+  margin-top: 24px;
+}
+
+/* single-row layout when bus is "En Route" */
+.bus-card-left--single {
+justify-content: center;
+}
+
+/* small status text under ETA for En Route buses */
+.bus-card-status {
+font-family: "Mona Sans";
+font-size: 13px;
+font-weight: 400;
+color: #4b5563;
+}
+
+/* shorter, single-row En Route cards */
+.bus-card--short {
+height: 40px; /* tweak as you like */
+box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.07);
+margin-bottom: -5px;
+}
+
+/* center content vertically since there's only one row */
+.bus-card--short .bus-card-left {
+justify-content:flex-end;
+}
+
+/* remove extra top margin so text sits nicely */
+.bus-card--short .bus-card-destination,
+.bus-card--short .bus-card-eta {
+margin-top: 0;
+}
+
+.stop-chips {
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+padding: 12px 16px;
+background: #f9fafb;
+border-bottom: 1px solid #e5e7eb;
+}
+
+.stop-chip {
+display: flex;
+align-items: center;
+gap: 6px;
+padding: 6px 12px;
+background: white;
+border: 1px solid #d1d5db;
+border-radius: 16px;
+font-size: 14px;
+color: #374151;
+}
+
+.stop-chip-remove {
+background: none;
+border: none;
+color: #6b7280;
+font-size: 18px;
+line-height: 1;
+cursor: pointer;
+padding: 0;
+width: 20px;
+height: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+}
+
+.stop-chip-remove:hover {
+background: #f3f4f6;
+color: #ef4444;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Update footer links from buttons to anchors */
+.home-footer-link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--text-main);
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+.stops-number-badge {
+  display: inline-block;
+  color: black;
+  padding: 0px 5px;
+  border-radius: 4px;
+  font-family: "Mona Sans";
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 5px;
+  border-radius: 4px;
+  border: 0.5px solid #000;
+}
+
+
+
+
+
+/* New StopPage Styles */
+.new-stop-root {
+  min-height: 100vh;
+  background: #f5f5f5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.new-stop-container {
+  max-width: 448px;
+  margin: 0 auto;
+  background: white;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+
+
+/* Stop Info Section */
+.new-stop-info {
+  padding: 5px 5px;
+}
+
+.new-stop-info-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.new-stop-info-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-stop-id {
+  font-size: clamp(30px, 3vw + 0.5rem, 60px);
+  font-family: "Mona Sans";
+  font-weight: 600;
+  margin: 0;
+}
+
+.new-stop-routes {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.new-stop-route-badge {
+  font-family: "Mona Sans";
+  font-size: 13px;
+  text-align: center;
+  line-height: 20px;
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  /*box-shadow: -1px -1px 4px 0 rgba(118, 118, 118, 0.25) inset, 0 4px 4px 0 rgba(255, 255, 255, 0.25) inset;*/
+}
+
+.new-stop-name {
+  font-family: "Mona Sans";
+  font-weight: 600;
+  font-size: clamp(19px, 1.5vw + 0.5rem, 60px);
+  font-weight: 500;
+  color: #333;
+}
+
+/* Popular Times Chart */
+.popular-times-section {
+  padding: 0 20px;
+  justify-content: center;
+
+  /*for now, do not show popular times chart*/
+  visibility: hidden;
+  height: 10px;
+}
+
+.popular-times-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.popular-times-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.popular-times-info {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  color: #666;
+}
+
+.popular-times-chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 80px;
+  position: relative;
+}
+
+.popular-times-arrow {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: #f5f5f5;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+
+.popular-times-arrow:hover {
+  background: #e0e0e0;
+}
+
+
+
+
+/* Action Buttons */
+.new-stop-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 0 15px;
+  color: #000;
+}
+
+.action-right{
+  display: flex;
+  gap: 1vw;
+}
+
+.new-stop-action-btn {
+  height: 34px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 500;
+  gap: 5px;
+  transition: all 0.2s;
+  color: #000;
+  padding: 0 8px;
+  text-align: center;
+  font-family: "Mona Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border-radius: 16px;
+  border: 0.4px solid var(--NavButton, #E9E9E9);
+  background: #FFF;
+
+  /* NewNav */
+  box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
+}
+
+.new-stop-action-btn-circle {
+  height: 34px;
+  width: 34px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 500;
+  gap: 5px;
+  transition: all 0.2s;
+  color: #000;
+  padding: 0 0px;
+
+  border-radius: 16px;
+  border: 0.4px solid var(--NavButton, #E9E9E9);
+  background: #FFF;
+
+  /* NewNav */
+  box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
+}
+
+.new-stop-action-btn:hover {
+  background: #f5f5f5;
+  border-color: #ccc;
+}
+
+.new-stop-action-btn-circle:hover{
+  background: #f5f5f5;
+  border-color: #ccc;
+}
+
+.new-stop-action-icon {
+  background-color: red;
+  font-size: 16px;
+}
+
+.get-directions-icon{
+  height: 100%;
+  width: 18px; 
+  background-image: url(./assets/mtv3directionsicon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.add-stop-icon{
+  height: 100%;
+  width: 18px; 
+  background-image: url(./assets/mtv3addstopicon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.view-on-map-icon{
+  height: 100%;
+  width: 20px; 
+  background-image: url(./assets/mtv3maplogoblack.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.favorite-stop-icon{
+  height: 100%;
+  width: 20px; 
+  background-image: url(./assets/mtv3staricon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.new-stop-arrivals-header {
+  display: grid;
+  grid-template-columns: 50px 1fr 60px 60px;
+  gap: 8px;
+  padding: 12px 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.new-stop-arrivals-label:first-child {
+  text-align: center;
+}
+
+.new-stop-arrivals-label:nth-child(3),
+.new-stop-arrivals-label:nth-child(4) {
+  text-align: center;
+}
+
+.new-stop-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.new-bus-card-expanded {
+  border-color: #0039AA;
+  box-shadow: 0 2px 8px rgba(0, 57, 170, 0.15);
+}
+
+.new-bus-card-content {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+}
+
+
+.new-bus-card-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.bus-card-row {
+  display: flex;    
+  width: 100%;
+}
+
+.new-bus-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.new-bus-card-destination {
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.new-bus-card-eta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.new-bus-card-eta-value {
+  font-size: 19px;
+  font-weight: 700;
+  color: #000;
+}
+
+.new-bus-card-expand {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: #f5f5f5;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.new-bus-card-expand:hover {
+  background: #e0e0e0;
+}
+
+.expand-chevron {
+  transition: transform 0.2s;
+}
+
+.expand-chevron-up {
+  transform: rotate(180deg);
+}
+
+.new-bus-card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-bus-card-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.new-bus-badge {
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.new-bus-badge-stops {
+  background: #e3f2fd;
+}
+
+.new-bus-badge-number {
+  background: #0039AA;
+  color: white;
+  border-radius: 8px;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: 600;
+  min-width: 20px;
+  text-align: center;
+}
+
+.new-bus-card-stops-text {
+  font-size: 13px;
+  color: #666;
+}
+
+.new-bus-card-occupancy {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.new-bus-card-occ-text {
+  font-size: 13px;
+  color: #666;
+  font-weight: 500;
+}
+
+.new-bus-card-dots {
+  display: flex;
+  gap: 3px;
+}
+
+.new-occ-person {
+  width: 8px;
+  height: 12px;
+  border-radius: 2px;
+  background: #e0e0e0;
+}
+
+.new-occ-person-filled {
+  background: #000;
+}
+
+.bus-card-expanded-content {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  animation: slideDown 0.3s ease;
+
+}
+
+
+/* Loading, Error, Empty States */
+.new-stop-loading,
+.new-stop-error,
+.new-stop-empty {
+  padding: 40px 20px;
+  text-align: center;
+  color: #666;
+  font-size: 15px;
+}
+
+.new-stop-error {
+  color: #d32f2f;
+}
+
+/* End Label */
+.new-stop-end-label {
+  text-align: center;
+  padding: 32px 16px;
+  color: #999;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Report Section */
+.new-stop-report {
+  margin: 0 16px 32px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.new-stop-report:hover {
+  background: #f5f5f5;
+  border-color: #ccc;
+}
+
+.new-stop-report-icon {
+  font-size: 24px;
+}
+
+/* Footer */
+.new-stop-footer {
+  padding: 24px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 13px;
+  color: #666;
+}
+
+.new-stop-footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.new-stop-footer-logo {
+  width: 24px;
+  height: 24px;
+  background: linear-gradient(135deg, #00B7C8, #0039AA);
+  border-radius: 4px;
+}
+
+.new-stop-footer-links {
+  display: flex;
+  gap: 16px;
+}
+
+.new-stop-footer-links a {
+  color: #0039AA;
+  text-decoration: none;
+}
+
+.new-stop-footer-links a:hover {
+  text-decoration: underline;
+}
+
+.new-stop-footer-copy {
+  width: 100%;
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+}
+
+/* Accessibility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Responsive */
+@media (max-width: 448px) {
+  .new-stop-container {
+    max-width: 100%;
+  }
+  
+  .new-stop-search-text {
+    font-size: 14px;
+  }
+  
+  .new-stop-action-btn {
+    font-size: 13px;
+  }
+}
+
+.popular-times-bars {
+  flex: 1;
+  height: 12vw;
+  max-height: 90px;
+  display: flex;
+  align-items: flex-end;
+  gap: 1vw;
+  padding: 0 4px;
+  border-radius: 10px;
+  max-width: 1000px;
+
+}
+
+/* Hour slot just controls layout */
+.popular-times-bar-slot {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Optional: current hour styling */
+.popular-times-bar-current .popular-times-pill {
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.25) inset;
+}
+
+/* Gray pill = mask */
+.popular-times-pill {
+  position: relative;
+  width: 100%;
+  max-width: 40px;
+  height: 100%;
+  background: #E5E5E5;
+  border-radius: 9999px;
+  overflow: hidden;
+  box-shadow: -1px -1px 4px 0 rgba(118, 118, 118, 0.25) inset, 0 4px 4px 0 rgba(255, 255, 255, 0.25) inset;
+
+}
+
+/* This is the colored stack container (the whole bar fill) */
+.popular-times-fill {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  overflow: hidden;                 /* important so segments don't poke past the cap */
+  border-radius: 9999px 9999px 0 0; /* ONLY TOP corners rounded */
+}
+
+/* Segments are just rectangles */
+.popular-times-segment {
+  width: 100%;
+  border-radius: 0;
+
+}
+

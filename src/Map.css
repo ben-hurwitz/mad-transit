@@ -1,0 +1,914 @@
+body.map-bg {
+  background-color: #36373B;
+  overflow: hidden; /* Prevent scrolling */
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+}
+
+.map-page-main {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  min-height: 100vh;
+  min-height: 100dvh;
+  min-height: -webkit-fill-available;
+  overflow: visible; /* ADD THIS - allows children to extend beyond */
+}
+
+.map-page-map-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 110vh; /* Your desired height */
+  width: 100vw;
+  border-radius: 0;
+  overflow: hidden;
+  background-color: #36373B;
+}
+
+.map-view-root {
+  width: 100%;
+  height: 100%; /* Will be 100% of 150vh wrapper */
+  position: relative;
+}
+
+/* Remove this rule - it's conflicting */
+/* Map {
+  height: 50vh;
+} */
+
+/* overlay buttons - adjust top position to account for header */
+.map-page-back-btn{
+  position: absolute;
+  background-image: url(./assets/mtv3backarrowwhite.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 20px;
+  border: 0.8px solid var(--NavButton, #949494);
+  backdrop-filter: blur(4px);
+  background-color: rgba(142, 142, 142, 0.20);
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+
+/* positions - adjusted for header overlay */
+.map-page-back-btn {
+  top: 150px; /* Moved down to be below header */
+  left: 16px;
+
+  /*!!@@*/
+}
+
+.map-page-center-btn {
+  top: 180px; /* Adjusted */
+  right: 16px;
+}
+
+
+
+/* SmartLaunch button */
+.map-smartlaunch-btn {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  font-family: "Mona Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  z-index: 999;
+}
+
+.map-smartlaunch-btn:hover {
+  background: #f3f4f6;
+}
+
+/* bottom card zzz*/
+.map-page-info-card {
+  margin-top: 8px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.map-page-info-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.map-page-route-badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #ff0000;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-page-route-text-main {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.map-page-route-text-sub {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.map-page-info-right {
+  text-align: right;
+}
+
+.map-page-info-time-main {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.map-page-info-time-sub {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.map-overlay {
+  position: absolute;
+  top: 180px; /* Moved below header */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  z-index: 1001; /* Above header */
+  font-family: "Mona Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+
+  /*for now, this is hidden because it appears every 5 seconds*/
+  visibility: hidden;
+}
+
+.map-overlay-error {
+  background: rgba(239, 68, 68, 0.9);
+}
+
+.map-select-mode {
+  pointer-events: none;
+}
+
+.map-select-banner {
+  position: absolute;
+  top: 180px; /* Moved below header */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #8B5CF6;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1001; /* Above header */
+  pointer-events: auto;
+  font-weight: 500;
+}
+
+.map-select-cancel {
+  background: white;
+  color: #8B5CF6;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.map-select-cancel:hover {
+  background: #f3f4f6;
+}
+
+.stop-marker-selectable {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Stop marker styles */
+.stop-marker {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.stop-marker:hover {
+  transform: scale(1.2);
+}
+
+.stop-marker:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+  border-radius: 50%;
+}
+
+/* Popup styles */
+.stop-popup .mapboxgl-popup-content {
+  padding: 0;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.18);
+  font-family: "Mona Sans", sans-serif;
+}
+
+.stop-popup .mapboxgl-popup-close-button {
+  font-size: 20px;
+  padding: 8px;
+  color: #6b7280;
+  right: 4px;
+  top: 4px;
+}
+
+.stop-popup .mapboxgl-popup-close-button:hover {
+  background: #f3f4f6;
+  color: #000;
+}
+
+.stop-popup-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stop-popup-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  letter-spacing: -0.5px;
+}
+
+.stop-popup-name {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+.stop-popup-button {
+  margin-top: 4px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+  font-family: "Mona Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.stop-popup-button:hover {
+  background: #333;
+}
+
+.stop-popup-button:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+.stop-popup-button-select {
+  background: #8B5CF6;
+}
+
+.stop-popup-button-select:hover {
+  background: #7C3AED;
+}
+
+/* Adjust popup tip */
+.stop-popup .mapboxgl-popup-tip {
+  border-top-color: #fff;
+}
+
+/* Tracked bus marker */
+.tracked-bus-marker {
+  font-size: 32px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+/* Track card at bottom - FIXED POSITION */
+.map-track-card {
+  width: 97vw;
+  justify-self: center;
+  margin-left: 1.5vw;
+  position: absolute;
+  top: 80vh;
+  left: 16px;
+  right: 16px;
+  z-index: 1002; /* Above everything else */
+
+  
+}
+
+.live-action-card{
+  display: flex;
+  align-items: stretch;
+  gap: 5px;
+  height: 35px;
+  width: fit-content;
+  color: white;
+  border-radius: 16px;
+  border: 0.8px solid var(--NavButton, #949494);
+  background: rgba(0, 0, 0, 0.20);
+  backdrop-filter: blur(4px); 
+  margin-bottom: 10px;
+  background: rgba(142, 142, 142, 0.20);
+}
+
+.live-action-map{
+  background-color: #FFC400;
+  align-self: center;
+  line-height: 20px;
+  padding: 0 5px;
+  border-radius: 4px;
+  margin-left: 10px;
+
+  /*text*/
+  color: #232323;
+  font-family: "Mona Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.live-action-summary-map{
+  /*text*/
+  color: white;
+  font-family: "Mona Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  align-self: center;
+  margin-right: 15px;
+}
+
+.map-bus-card{
+  display: flex;
+  align-items: stretch;
+  gap: 5px;
+  height: 70px;
+  color: white;
+  border-radius: 17px / 17px;
+  border: 0.8px solid var(--NavButton, #949494);
+
+  /*old
+  background: rgba(142, 142, 142, 0.20);
+  backdrop-filter: blur(4px);*/
+
+  background: rgba(0, 0, 0, 0.20);
+  background: rgba(142, 142, 142, 0.20);
+  backdrop-filter: blur(4px); 
+  padding-right: 5px;
+}
+
+.map-bus-card-main{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.map-bus-card-left{
+  width: 100%;
+  margin-right: 5px;
+}
+
+.map-bus-card-times{
+  transform: translateY(2px);
+  display: flex;
+}
+
+.map-bus-card-eta{
+  margin-top: 10px;
+  font-family: "Mona Sans";
+  font-size: 25px;
+  align-self: center;
+  transform: translateY(-2px);
+  font-weight: 700;
+  margin-right: 3px;
+}
+
+.network-icon{
+  width: 11px;
+  height: 11px;
+  transform: translate(-2px,10px);
+  background-image: url(./assets/zzNetworkIcon\ 597.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  animation: networkCycle 2s infinite steps(1);
+}
+
+
+/* Keyframes */
+@keyframes networkCycle {
+  0% {
+    background-image: url("./assets/zzNetworkIcon 603.png");
+  }
+  2% {
+    background-image: url("./assets/zzNetworkIcon 609.png");
+  }
+  4% {
+    background-image: url("./assets/zzNetworkIcon 608.png");
+  }
+  6% {
+    background-image: url("./assets/zzNetworkIcon 607.png");
+  }
+  8% {
+    background-image: url("./assets/zzNetworkIcon 606.png");
+  }
+  10% {
+    background-image: url("./assets/zzNetworkIcon 605.png");
+  }
+  12% {
+    background-image: url("./assets/zzNetworkIcon 604.png");
+  }
+  15% {
+    background-image: url("./assets/zzNetworkIcon 603.png");
+  }
+}
+
+.map-bus-card-right{
+  align-self: center;
+  margin-right: 3px;
+  margin-top: 3px;
+}
+
+.map-cancel-back-btn{
+  width: 42px;
+  height: 42px;
+  background: #ffffff;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 0.8px solid var(--New-Button, #DEDEDE);
+  background: #F6F6F6;
+  box-shadow: 1 3px 2px 2 rgba(0, 0, 0, 0.3);
+  background-image: url(./assets/mtv3buscardcancelmap.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 9999;
+}
+
+.bus-card-route-map{
+  margin: 3px;
+  margin-left: 4px;
+  width: 40px;
+  height: 61px;
+  border-radius: 13px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  font-family: "Mona Sans";
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 0px;
+}
+
+.map-bus-card-sub {
+  font-family: "Mona Sans";
+  margin-top: -12px;
+  font-size: 13px;
+  font-weight: 300;
+  color: white;
+}
+
+.bus-card-destination-map{
+  margin-top: 8px;
+  font-family: "Mona Sans";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.map-bus-card-stops-away{
+  background-color: #FFC400;
+  margin-top: 5px;
+  align-self: flex-start;
+  line-height: 18px;
+  padding: 0 5px;
+  border-radius: 4px;
+
+  /*text*/
+  color: #232323;
+  font-family: "Mona Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+/* Occupancy - now on right */
+.bus-card-occupancy {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bus-card-occ-text-map {
+  font-family: "Mona Sans";
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+  margin-top: -5px;
+}
+
+.bus-card-dots {
+  margin-top: -6px;
+  display: flex;
+  border-color: black;
+  gap: 1px;
+}
+
+.occ-person {
+  width: 10px;
+  height: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  transform: scale(1.1);
+}
+
+.occ-person-filled-map {
+  background-image: url(./assets/mtv3occpersonfilledwhite.svg);
+}
+
+.occ-person-empty {
+  background-image: url(./assets/mtv3occpersonnotfilled.svg);
+}
+
+.location-button{
+  width: 90%;
+  height: 45%;
+  background-image: url(./assets/mylocationmtv3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55%;
+  cursor: pointer;
+  justify-self: center;
+  border-radius: 8px 8px 20px 20px;
+  margin: 5%;
+
+/*!!@@*/
+}
+
+.horizontal-divider{
+  height: 1%;
+  width: 50%;
+  background-color: #949494;
+  margin-left: 25%;
+}
+
+/* Toggle stops button */
+.map-page-toggle-stops-btn {
+  width: 90%;
+  height: 45%;
+  cursor: pointer;
+  background-image: url(./assets/mtv3stopicon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 37%;
+  justify-self: center;
+  border-radius: 20px 20px 8px 8px;
+  margin: 5%;
+}
+
+.map-page-toggle-stops-btn:hover {
+  background-color: rgba(255, 255, 255, 0.20);
+  background-image: url(./assets/mtv3stopicon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.map-page-toggle-stops-btn:active {
+  background-color: rgba(255, 255, 255, 0.20);
+  background-image: url(./assets/mtv3stopicon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.intermediate-stops-labels{
+  font-family: "Mona Sans", sans-serif;
+  font-size: 11px;
+}
+
+.intermediate-stops-labels{
+  font-family: "Mona Sans", sans-serif;
+  font-size: 11px;
+}
+
+/* Countdown Timer */
+.map-countdown-timer {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  bottom: 260px;
+  left: 16px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(2px); 
+  border-radius: 100px;
+
+  /*for now, hid the countdown timer*/
+  visibility: hidden;
+}
+
+.countdown-ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-90deg);
+}
+
+.countdown-ring-circle-bg {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 2;
+}
+
+.countdown-ring-circle {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-dasharray: 138.23; /* 2 * π * 22 */
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s linear;
+  stroke-linecap: round;
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.5));
+}
+
+.countdown-number {
+  position: relative;
+  font-family: "Mona Sans", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  z-index: 1;
+}
+
+
+
+.location-button:hover{
+  background-color: rgba(255, 255, 255, 0.20);
+  background-image: url(./assets/mylocationmtv3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.map-view-root {
+width: 100%;
+height: 100%; /* This will now be 100% of the 150vh parent */
+position: relative;
+}
+
+
+/*phone*/
+@media screen and (max-width: 450px) {
+  /* positions - adjusted for header overlay */
+
+.map-countdown-timer {
+  left: 5px;
+  bottom: 235px;
+}
+.map-page-back-btn {
+  top: 110px; /* Moved down to be below header */
+  left: 5px;
+}
+
+.map-page-center-btn {
+  top: 180px; /* Adjusted */
+  right: 5px;
+}
+
+.map-page-locate-btn {
+  top: 250px; /* Adjusted */
+  right: 5px;
+}
+
+.map-page-toggle-stops-btn{
+  right: 5px;
+
+  /*!!@@*/
+}
+.location-button{
+  right: 5px;
+}
+}
+
+.map-bus-icon{
+  background-image: url(./assets/mtv3mapbusiconwhite.svg);
+  border-radius: 19px;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  outline: 2px solid var(--New-Button, #DEDEDE);
+  outline-offset: 0;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  animation: bus-icon-pulse 2s infinite steps(1);
+}
+
+@keyframes bus-icon-pulse {
+  0%{
+    outline-width: 2px;
+  }
+  5%{
+    outline-width: 2.1px;
+  }
+  10%{
+    outline-width: 2.2px;
+  }
+  15%{
+    outline-width: 2.3px;
+  }
+  20%{
+    outline-width: 2.4px;
+  }
+  25%{
+    outline-width: 2.5px;
+  }
+  30% {
+    outline-width: 2.6px;
+  }
+  35% {
+    outline-width: 2.7px;
+  }
+  40% {
+    outline-width: 2.8px;
+  }
+  45% {
+    outline-width: 2.9px;
+  }
+  50% {
+    outline-width: 3px;
+  }
+  55% {
+    outline-width: 3px;
+  }
+  60% {
+    outline-width: 2.9px;
+  }
+  65% {
+    outline-width: 2.8px;
+  }
+  70% {
+    outline-width: 2.6px;
+  }
+  75% {
+    outline-width: 2.5px;
+  }
+  80% {
+    outline-width: 2.4px;
+  }
+  85% {
+    outline-width: 2.3px;
+  }
+  90% {
+    outline-width: 2.2px;
+  }
+  95% {
+    outline-width: 2.1px;
+  }
+  100% {
+    outline-width: 2px;
+  }
+}
+
+.network-icon-bus{
+  width: 11px;
+  height: 11px;
+  transform: translate(25px,4px);
+  background-image: url(./assets/zzNetworkIcon\ 597.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  animation: networkCycle 2s infinite steps(1);
+}
+
+.center-bus-button{
+  position: absolute;
+  bottom: 400px;
+  right: 5px;
+  width: 43px;
+  height: 43px;
+  border-radius: 20px;
+  border: .8px solid var(--NavButton, #949494);
+  backdrop-filter: blur(4px);
+  background: rgba(142, 142, 142, 0.20);
+  background-image: url(./assets/mtv3mapbusiconwhite.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  cursor: pointer;
+  transform: scale(0.95);
+  transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+.center-bus-button:hover{
+  background-image: url(./assets/mtv3mapbusiconwhite.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  transform: scale(1.05);
+}
+
+.center-bus-button.active{
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 0.6px solid var(--NavButton, #ffffff);
+}
+
+
+.location-button:hover{
+  background-image: url(./assets/mylocationmtv3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scale(1.05);
+}
+
+.map-button-menu{
+  position: absolute;
+  bottom: 295px;
+  right: 16px;
+  z-index: 1;
+  background-color: red;
+  height: 100px;
+  width: 44px;
+
+  border-radius: 20px;
+  border: 0.8px solid var(--NavButton, #949494);
+  backdrop-filter: blur(4px);
+  background: rgba(142, 142, 142, 0.20);
+  transform: scale(.95);
+  
+}
+
+/*phone*/
+@media screen and (max-width: 450px) {
+  .center-bus-button {
+    right: 5px;
+  }
+  
+  .location-button{
+    right: 5px;
+  }
+
+  .map-button-menu{
+    right: 5px;
+  }
+}
+

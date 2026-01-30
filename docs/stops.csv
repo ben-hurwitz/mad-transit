@@ -1,0 +1,1716 @@
+stop_code,stop_name,stop_lat,stop_lon
+0010,Langdon at N Park,43.075933,-89.400154
+E100,E Washington at East High,43.096625,-89.353789
+W200,Regent at West High,43.068056,-89.427955
+W299,Regent at West High,43.067841,-89.427585
+M600,S Gammon at Memorial High,43.063995,-89.502396
+M601,Mid Town at Province Hill,43.031425,-89.51704
+0107,S Park at W Olin,43.054383,-89.396533
+L700,Pflaum at Lafollette High,43.062197,-89.320103
+1100,E Mifflin at N Pinckney,43.076028,-89.384661
+1101,W Main at S Carroll,43.073297,-89.383773
+1105,Milwaukee at Walter,43.098067,-89.326187
+1116,Fordem at Lakewood,43.096657,-89.363804
+1121,E Johnson at N Livingston,43.082937,-89.378175
+1122,N Sherman at Oxford,43.11014,-89.363978
+1131,E Johnson at N Third,43.097012,-89.358407
+1137,Milwaukee at Corry,43.099888,-89.34466
+1138,E Gorham at N Blair,43.081202,-89.382769
+0115,N Park at Regent,43.067983,-89.400724
+1150,E Wilson at S Blair,43.076186,-89.376179
+1151,E Johnson at N Paterson,43.084548,-89.37584
+1153,Walter at Dawes,43.095569,-89.326524
+1156,N Sherman at Commercial,43.106953,-89.364055
+1157,N Baldwin at Sherman,43.091942,-89.372674
+1160,E Johnson at N Fourth,43.098059,-89.357418
+1163,W Washington at S Carroll,43.073655,-89.385427
+1167,Jenifer at S Livingston,43.077867,-89.369993
+1169,Atwood at Walter,43.089707,-89.329817
+1177,Fordem at Lakewood,43.096916,-89.363631
+1188,Winnebago at Atwood,43.091791,-89.355523
+1190,Jenifer at S Brearly,43.080238,-89.367028
+1194,Jenifer at S Livingston,43.077751,-89.370536
+E949,Sycamore at Wayridge,43.113749,-89.299929
+E958,Sycamore at Wayridge,43.113928,-89.300609
+E961,Mendota at Sycamore,43.114056,-89.315049
+E963,Mendota at Duncan,43.116137,-89.317725
+E966,Mendota at Hoover,43.117912,-89.320403
+E967,Mendota at Hoover,43.117929,-89.320069
+E968,Mendota at Duncan,43.116101,-89.318059
+E970,Mendota at Sycamore,43.113986,-89.315344
+E974,Sycamore at N Thompson,43.113996,-89.296495
+1206,Milwaukee at Leon,43.098597,-89.329459
+1208,Williamson at Rogers,43.087361,-89.359231
+1209,E Johnson at N Ingersoll,43.08708,-89.372246
+0121,W Badger at Fiedler,43.038466,-89.401117
+1219,Atwood at Waubesa,43.093781,-89.343728
+1220,Milwaukee at N Bryan,43.099882,-89.335459
+W230,Oxford at Wellesley,43.082649,-89.438129
+W232,Oxford at Bowdoin,43.081968,-89.441327
+1225,Walter at Atwood,43.089689,-89.329138
+1227,E Johnson at N Butler,43.079045,-89.383684
+W286,Shorewood at Topping,43.077715,-89.443523
+W288,Shorewood at Locust,43.076148,-89.443906
+W292,Locust at Highbury,43.076998,-89.448548
+1230,E Wilson at S Butler,43.074504,-89.378773
+W404,Post at Fish Hatchery,43.026758,-89.413062
+W407,Grandview at Kingston,43.029623,-89.431296
+W411,Grandview at Brighton,43.032882,-89.430691
+W413,Grandview at Thames,43.03452,-89.433097
+W418,Grandview at Sandwood,43.026955,-89.430839
+W452,Grandview at Brighton,43.032747,-89.431321
+1250,E Gorham at N Baldwin,43.089497,-89.369614
+1254,N Sherman at Roth,43.11228,-89.363964
+1267,E Johnson at N Dickinson,43.090856,-89.366921
+1270,Walter at Milwaukee,43.097852,-89.326706
+1293,Milwaukee at E Washington,43.100087,-89.348302
+1301,North at E Washington,43.100875,-89.349067
+1309,Milwaukee at Leon,43.098248,-89.329213
+1321,Atwood at S Fair Oaks,43.093582,-89.340691
+1325,E Johnson at N Baldwin,43.089622,-89.368749
+1329,Sherman at Sherman,43.097097,-89.368002
+0133,University at N Breese,43.073275,-89.413154
+1333,E Johnson at Fordem,43.093129,-89.363622
+1341,N Sherman at Aberg,43.11382,-89.363653
+1375,North at Hoard,43.10486,-89.351002
+1379,Fordem at McGuire,43.101124,-89.363887
+1380,Aberg at Loftsgordan,43.114291,-89.357255
+1384,Atwood at Division,43.092854,-89.351681
+1391,Atwood at Ohio,43.093675,-89.346679
+1394,Commercial at North,43.106929,-89.35163
+1397,E Johnson at N Blount,43.082051,-89.37941
+1427,Packers at Commercial,43.107091,-89.354359
+1435,Commercial at North,43.106714,-89.351445
+0146,Fish Hatchery at Midland,43.053981,-89.399186
+1462,Milwaukee at N Fair Oaks,43.099808,-89.332508
+0147,W Olin at Hickory,43.053872,-89.391782
+1472,Winnebago at Riverside,43.088784,-89.357909
+1478,Walter at Richard,43.093134,-89.326923
+1480,Williamson at S Blount,43.07691,-89.373734
+1482,Milwaukee at N Marquette,43.10002,-89.341387
+1504,Aberg at Ruskin,43.114329,-89.361825
+1505,Jenifer at S Ingersoll,43.081151,-89.365311
+1509,Williamson at S Blount,43.07717,-89.372784
+1518,North at E Johnson,43.102845,-89.350325
+0153,E Olin at Quann,43.052132,-89.38075
+1533,Sherman at McGuire,43.101098,-89.365319
+1536,Jenifer at S Paterson,43.078985,-89.368807
+1559,Jenifer at S Few,43.082421,-89.36352
+1561,N Sherman at Roth,43.111841,-89.363667
+1577,Sherman at N Thornton,43.094439,-89.369906
+1585,Commercial at Packers,43.106715,-89.354273
+0161,S Broom at W Doty,43.070146,-89.387071
+1615,Jenifer at S Paterson,43.078654,-89.368869
+0162,S Park at Meriter,43.065091,-89.400997
+1622,Atwood at Oakridge,43.092129,-89.336716
+1635,North at E Johnson,43.103454,-89.350324
+1636,E Gorham at N Ingersoll,43.08777,-89.373443
+1643,Eastwood at Division,43.09254,-89.350706
+M430,Williamsburg at Danville,43.023602,-89.484536
+M431,Putnam at Sara,43.022882,-89.492048
+M433,Williamsburg at Prairie,43.022875,-89.488496
+M434,Williamsburg at Prairie,43.02309,-89.488681
+M435,Williamsburg at Danville,43.023369,-89.484684
+M436,Putnam at Sara,43.023097,-89.492233
+1645,Williamson at Rogers,43.087343,-89.358898
+0166,Rimrock at John Nolen,43.04649,-89.374805
+M603,Tramore at Darien,43.081891,-89.51659
+M607,Darien at Tramore,43.081873,-89.516244
+1664,E Gorham at N Blount,43.082741,-89.380595
+M641,Mid Town at Dewberry,43.031376,-89.522406
+M649,Mica at Flagstone,43.025964,-89.528863
+M672,Mid Town at Dewberry,43.031591,-89.522209
+M678,Mid Town at Province Hill,43.03164,-89.517225
+1675,E Johnson at N Fourth,43.098301,-89.35669
+M800,Tanglewood at McKee,43.015426,-89.505498
+M804,Stonebridge at Mammoth,43.002373,-89.506937
+M805,Stonebridge at Avalon,43.00428,-89.506582
+M806,Mammoth at East Pass,43.006122,-89.509828
+M807,Stonebridge at Drumlin,43.002034,-89.506518
+M809,Country Grove at Westbourne,43.010874,-89.513016
+M813,Gladstone at Tucson,43.023417,-89.51133
+M814,McKenna at Raymond,43.031456,-89.49709
+M815,Tucson at Lindemann,43.020193,-89.512399
+M818,McKenna at Pilgrim,43.027311,-89.496963
+1682,Atwood at Ohio,43.093837,-89.346939
+M820,East Pass at Stonebridge,43.006858,-89.508164
+M826,East Pass at Woodstone,43.010018,-89.507613
+M827,McKee at S High Point,43.015803,-89.518067
+M830,S High Point at Stratton,43.018908,-89.518935
+M832,S High Point at Raymond,43.025435,-89.518068
+M833,Manchester at Tiller,43.008308,-89.492946
+M835,East Pass at Tanglewood,43.012285,-89.504593
+M836,Gladstone at Tucson,43.023587,-89.511305
+M842,Country Grove at Westbourne,43.011285,-89.5133
+M843,Fairhaven at Dolphin,43.003543,-89.497554
+M844,Maple Grove at Carnwood,43.020255,-89.498916
+M845,Canterbury at Waltham,43.025481,-89.502956
+M847,Canterbury at Pilgrim,43.028158,-89.502885
+M849,Mammoth at Field Crest,43.007329,-89.513147
+M852,Lancaster at McKenna,43.022455,-89.503076
+M855,McKee at Snowy,43.01576,-89.515279
+M857,East Pass at Stonebridge,43.006867,-89.507818
+M858,S High Point at Snowmist,43.02171,-89.519
+M859,East Pass at Woodstone,43.009839,-89.50739
+M863,S High Point at Stratton,43.018631,-89.518465
+M864,Tucson at Lindemann,43.020408,-89.512547
+M868,Maple Grove at Putnam,43.022708,-89.49887
+M869,S High Point at Raymond,43.025659,-89.51792
+M870,East Pass at Artic Fox,43.002451,-89.512129
+M873,S High Point at Snowmist,43.021711,-89.518704
+M874,East Pass at Tanglewood,43.012383,-89.504816
+M875,Mammoth at East Pass,43.005899,-89.509975
+M876,Fairhaven at Dolphin,43.003758,-89.497172
+M877,East Pass at Artic Fox,43.002558,-89.511833
+M878,Canterbury at Raymond,43.031408,-89.502124
+M880,Canterbury at Pilgrim,43.028023,-89.503181
+M882,Canterbury at Waltham,43.025633,-89.503215
+M884,Stonebridge at Frosted Leaf,43.004692,-89.506878
+M885,Maple Grove at Putnam,43.022843,-89.498574
+M886,McKee at Snowy,43.015966,-89.514897
+M889,Tiller at Manchester,43.007869,-89.492958
+M890,Cosgrove at Tonkinese,43.00522,-89.491685
+M891,Field Crest at Mammoth,43.007723,-89.513172
+M892,Cosgrove at Dallas,43.004341,-89.494274
+M895,Tiller at Cosgrove,43.008041,-89.489801
+M896,Country Grove at McKee,43.015521,-89.511566
+M897,S High Point at McKee,43.016376,-89.518228
+M898,McKee at Muir Field,43.015897,-89.511801
+1692,Fordem at McGuire,43.100578,-89.364196
+F060,Fish Hatchery at Catalpa,43.041645,-89.404114
+1704,E Johnson at N Sixth,43.100618,-89.354007
+1707,Fordem at E Johnson,43.093603,-89.363498
+1715,N Sherman at Oxford,43.109495,-89.363707
+1717,N Sherman at Fordem,43.103622,-89.363835
+1718,Atwood at S Fair Oaks,43.093958,-89.341283
+0173,W Badger at Cypress,43.03843,-89.397946
+L328,Dream at Siggelkow,43.026477,-89.282309
+L343,Roanne at Marsh,43.029757,-89.285658
+0174,S Park at Fish Hatchery,43.056451,-89.398716
+1746,Milwaukee at Corry,43.100112,-89.34503
+1748,Milwaukee at Farwell,43.100148,-89.346561
+1750,Jenifer at S Few,43.082752,-89.363446
+1751,Milwaukee at S Fair Oaks,43.099405,-89.331817
+1759,Aberg at Ruskin,43.114105,-89.361072
+1766,North at Hoard,43.105084,-89.351397
+1767,N Baldwin at E Johnson,43.089783,-89.369317
+L703,Cottontail at McLean,43.08002,-89.272384
+L714,McLean at Fredericksburg,43.084176,-89.273968
+L716,McLean at Cottontail,43.080271,-89.272396
+L717,Cottontail at Lynchburg,43.078197,-89.275129
+L718,Cottontail at Lynchburg,43.078528,-89.275054
+L747,Portland at Walbridge,43.096516,-89.312149
+L749,Diamond at Portland,43.097792,-89.307442
+L753,Diamond at Crystal,43.097609,-89.303626
+L770,Portland at Walbridge,43.096749,-89.312531
+L788,Portland at Diamond,43.098195,-89.308046
+L792,Diamond at Crystal,43.097959,-89.303823
+1780,E Johnson at N First,43.094122,-89.362695
+1785,Walter at Hargrove,43.091433,-89.327382
+1786,Walter at Dawes,43.095847,-89.326808
+1787,S Pinckney at E Main,43.075033,-89.382303
+L914,Walbridge at Alvarez,43.099614,-89.313317
+L921,Wittwer at Milwaukee,43.09886,-89.310157
+L923,Wittwer at Walbridge,43.102728,-89.311274
+1798,E Johnson at N Dickinson,43.09091,-89.367254
+1809,Walter at Richard,43.093268,-89.326626
+0181,S Park at Cedar,43.052252,-89.394806
+1812,E Johnson at N Third,43.097057,-89.358741
+1830,Winnebago at S First,43.090431,-89.356623
+1831,E Johnson at N Blair,43.08079,-89.381201
+1834,E Gorham at N Paterson,43.085229,-89.377062
+1837,Williamson at S Blair,43.076016,-89.375229
+0184,Linden at Henry,43.075227,-89.410055
+1843,E Johnson at N First,43.094265,-89.361707
+1848,Milwaukee at Starkweather,43.099956,-89.338929
+1855,Milwaukee at S Bryan,43.099667,-89.335459
+1877,Aberg at N Sherman,43.114124,-89.363344
+1878,Jenifer at S Ingersoll,43.081482,-89.365249
+1886,Milwaukee at Walter,43.098287,-89.326946
+1890,Walter at Hargrove,43.091353,-89.327851
+1892,E Johnson at Fordem,43.092789,-89.364524
+1894,Atwood at Waubesa,43.093996,-89.343913
+1895,Aberg at Loftsgordan,43.114077,-89.357811
+1901,Winnebago at S First,43.090439,-89.356277
+1919,Milwaukee at Starkweather,43.099741,-89.338744
+1922,N Sherman at Aberg,43.113954,-89.36395
+1923,N Sherman at Commercial,43.106675,-89.363771
+1935,Winnebago at Riverside,43.088632,-89.357687
+1944,E Johnson at North,43.103034,-89.350794
+1949,E Johnson at N Sixth,43.100287,-89.354069
+0195,S Park at Crosswalk,43.04705,-89.393808
+1959,Jenifer at S Brearly,43.080193,-89.366695
+1963,Atwood at Winnebago,43.091952,-89.354794
+1975,Milwaukee at S Marquette,43.099814,-89.34177
+1996,E Gorham at N Livingston,43.084003,-89.378804
+2007,Observatory at Walnut,43.076436,-89.424388
+2014,Lake Mendota at Lot R,43.089239,-89.43376
+2018,Eagle Heights at Lot E,43.086293,-89.435043
+2023,Marsh at Highland,43.0788,-89.429795
+2026,Eagle Heights at Lot F,43.086248,-89.436661
+2027,University Bay at Lot 60,43.080259,-89.428067
+0203,Rimrock at E Rusk,43.043214,-89.376979
+2034,Lake Mendota at Eagle Heights,43.086445,-89.433772
+2039,Lake Mendota at Lot N,43.089158,-89.438057
+2041,Lake Mendota at University Bay,43.084252,-89.433487
+2048,Lake Mendota at University Bay,43.084386,-89.433784
+2050,University Bay at Lot 76,43.080886,-89.428351
+2053,Walnut at Observatory,43.077045,-89.424906
+2054,Eagle Heights at Lot M,43.086668,-89.441612
+2061,Lake Mendota at Lot P,43.089784,-89.437007
+2070,University at Ridge,43.075065,-89.439054
+2071,Lake Mendota at Lot Q,43.090501,-89.435587
+2076,Marsh at Lot 76,43.079006,-89.429203
+2082,Eagle Heights at Shelter,43.086328,-89.438587
+2088,Observatory at Walnut,43.076759,-89.42577
+2091,Observatory at Highland,43.076973,-89.428499
+2105,Odana at Frederick,43.050928,-89.444318
+2112,Monroe at Glenway,43.052792,-89.435692
+F221,Eau Claire at Regent,43.069331,-89.463074
+2125,Highland at Observatory,43.077349,-89.428844
+2131,University Bay at University,43.074207,-89.433585
+2133,Mineral Point at S Owen,43.060632,-89.447048
+2134,Mineral Point at Toepfer,43.060857,-89.44179
+2137,Speedway at Hillcrest,43.064287,-89.433768
+F218,Regent at Eau Claire,43.069017,-89.463666
+2145,Observatory at Babcock,43.076319,-89.412882
+2146,University at Forest,43.072801,-89.421956
+2161,Tokay at Hilltop,43.05345,-89.45877
+2164,Regent at N Allen,43.06803,-89.424141
+0217,S Park at W Washington,43.063668,-89.400528
+2171,N Franklin at University,43.073965,-89.436091
+2175,Sheboygan at Eau Claire,43.072912,-89.463496
+2177,Kendall at Ridge,43.07127,-89.43846
+2184,Sheboygan at N Segoe,43.073101,-89.457163
+F291,University at N Midvale,43.075108,-89.450497
+2192,University at Walnut,43.072425,-89.425511
+2195,Observatory at Elm,43.076347,-89.416104
+2197,University at Norman,43.082424,-89.475082
+F201,Regent at S Whitney,43.067897,-89.467949
+2204,Bluff at N Blackhawk,43.069594,-89.446138
+2205,Old Middleton at Gettle,43.074143,-89.473804
+2213,S Midvale at Odana,43.050399,-89.450858
+0222,Fisher at Bram,43.045474,-89.391946
+2220,Old Middleton at N Whitney,43.074128,-89.467928
+2222,Tokay at Charles,43.053764,-89.454673
+2226,Tokay at U W Health,43.053795,-89.470395
+2231,Speedway at S Franklin,43.06246,-89.436187
+2236,Old Middleton at Gettle,43.074358,-89.473804
+2240,Marsh at Lot 60,43.078988,-89.426659
+2250,Mineral Point at S Segoe,43.060997,-89.458083
+0226,Regent at La Mariposa,43.067821,-89.39749
+2263,Mineral Point at S Midvale,43.060712,-89.450628
+2264,Bluff at Crosswalk,43.070311,-89.442139
+2265,Odana at Huron,43.051269,-89.439554
+2267,Observatory at Colwood,43.076382,-89.420425
+2274,Tokay at Hilltop,43.053772,-89.4584
+2323,Tokay at S Segoe,43.053483,-89.466002
+F237,N Midvale at Regent,43.068501,-89.45089
+2338,S Segoe at Regent,43.068733,-89.454754
+F245,Old Middleton at N Highlands,43.079871,-89.480488
+2346,S Midvale at Midvale School,43.057265,-89.451354
+2349,Highland at Marsh,43.078388,-89.430227
+F255,Capital at Old Middleton,43.082583,-89.481885
+2357,Odana at Anthony,43.05057,-89.447069
+F260,Old Middleton at N Highlands,43.080049,-89.480883
+F262,N Midvale at Hilldale Row,43.072422,-89.45141
+2374,Speedway at S Franklin,43.062845,-89.436064
+2376,Sheboygan at Eau Claire,43.073082,-89.46373
+2377,Regent at Highland,43.067841,-89.42777
+2388,Monroe at Knickerbocker,43.057036,-89.429336
+2389,Monroe at Leonard,43.060885,-89.423091
+2393,Highland at V A Hospital,43.073822,-89.42861
+2395,Sheboygan at N Segoe,43.072904,-89.456953
+2398,N Whitney at University,43.075999,-89.467966
+F241,S Whitney at Mineral Point,43.061234,-89.471956
+0241,Monroe at S Breese,43.066919,-89.413883
+0243,John Nolen at Rimrock,43.047242,-89.374681
+2433,Odana at S Midvale,43.050077,-89.450611
+2442,Observatory at Colwood,43.076606,-89.420808
+2470,Speedway at Glenway,43.061037,-89.438532
+2473,Highland at Waisman,43.07811,-89.433141
+2476,S Midvale at Tokay,43.053237,-89.451365
+2487,Regent at S Midvale,43.068036,-89.450705
+2491,S Segoe at Richland,43.063674,-89.456393
+2494,N Franklin at University,43.073902,-89.436387
+2496,Speedway at Hillcrest,43.064502,-89.433867
+2497,Monroe at Commonwealth,43.058405,-89.426868
+2505,Monroe at Glenway,43.053042,-89.434877
+0251,S Park at Erin,43.060167,-89.40053
+2519,Mineral Point at Berwyn,43.060799,-89.461292
+0252,State at W Gorham,43.07491,-89.391303
+2522,S Whitney at Odana,43.049676,-89.473749
+2524,Monroe at Leonard,43.060679,-89.423844
+2561,University at Highland,43.071996,-89.428227
+2566,Monroe at S Prospect,43.063625,-89.419302
+2576,University Bay at Marshall,43.0746,-89.433906
+2590,S Midvale at Mineral Point,43.06056,-89.451356
+2605,University at Walnut,43.072273,-89.424733
+2608,Monroe at Spooner,43.065308,-89.416759
+2615,Tokay at Charles,43.053451,-89.455055
+2620,Highland at Marsh,43.078853,-89.430783
+2628,S Segoe at Richland,43.064041,-89.456689
+F234,S Midvale at Odana,43.049826,-89.451351
+F268,Mineral Point at S Midvale,43.060945,-89.451652
+2643,Highland at University,43.072479,-89.428535
+F247,Mineral Point at S Segoe,43.060773,-89.457046
+2655,S Midvale at Tokay,43.05389,-89.450872
+2659,Speedway at Glenway,43.061081,-89.438051
+F066,Fish Hatchery at S Park,43.056496,-89.399124
+2665,S Whitney at Odana,43.050544,-89.473232
+2670,S Whitney at Mineral Point,43.060536,-89.472313
+2672,Speedway at Highland,43.06768,-89.429584
+2691,Regent at Spooner,43.067725,-89.416364
+2693,Regent at S Owen,43.067956,-89.447619
+2700,Regent at N Prospect,43.067994,-89.42103
+2702,Regent at Vista,43.068056,-89.426437
+2709,S Midvale at Midvale School,43.057561,-89.450848
+0271,Regent at S Park,43.067544,-89.40049
+2711,S Segoe at Mineral Point,43.06114,-89.457293
+2717,University at Forest,43.072703,-89.421178
+2718,Old Middleton at N Rosa,43.074921,-89.477595
+2725,Bluff at Crosswalk,43.070329,-89.441558
+0273,Regent at La Mariposa,43.067436,-89.397367
+2734,Mineral Point at S Owen,43.060847,-89.447233
+2737,Mineral Point at Toepfer,43.060642,-89.441494
+0274,W Washington at N Broom,43.071248,-89.389243
+F271,N Midvale at Heather,43.071626,-89.450903
+2742,Bluff at Ridge,43.071377,-89.439275
+2753,Monroe at Chapman,43.055128,-89.431743
+2762,Regent at N Owen,43.068171,-89.447236
+2770,Highland at Waisman,43.078226,-89.433511
+2773,Regent at Vista,43.067824,-89.426054
+2775,Bluff at N Blackhawk,43.069379,-89.445953
+2787,Old Middleton at N Whitney,43.073886,-89.468088
+2790,University at N Whitney,43.076572,-89.467794
+F278,S Whitney at Regent,43.067735,-89.468665
+2806,University at Princeton,43.073321,-89.418215
+F212,N Midvale at University,43.074804,-89.451399
+2820,University at University Bay,43.073607,-89.433498
+2822,Highland at V A Hospital,43.074458,-89.428968
+2829,Mineral Point at Racine,43.060807,-89.465118
+2836,Monroe at Chapman,43.05494,-89.432471
+2850,Regent at Spooner,43.067958,-89.417191
+2856,Monroe at Commonwealth,43.058173,-89.427621
+0288,S Park at Erin,43.059621,-89.400999
+2881,University Bay at Picnic Point,43.084225,-89.429092
+2883,Monroe at Knickerbocker,43.057053,-89.428855
+2885,Monroe at Van Buren,43.063983,-89.418327
+0289,W Olin at Gilson,43.053844,-89.389869
+2890,Mineral Point at Westmorland,43.060848,-89.443506
+2892,University at Norman,43.0822,-89.475316
+2899,Regent at S Allen,43.067806,-89.423388
+2910,Odana at Huron,43.051493,-89.439394
+2916,Highland at Observatory,43.076794,-89.42919
+2921,University at Princeton,43.073222,-89.417438
+2923,University at N Segoe,43.075152,-89.45625
+2925,S Whitney at Science,43.056418,-89.472755
+2938,University Bay at Picnic Point,43.084145,-89.428759
+2939,Tokay at U W Health,43.053473,-89.470482
+2945,University at Ridge,43.074573,-89.438473
+2949,Regent at S Prospect,43.067779,-89.420845
+2965,Kendall at N Franklin,43.071368,-89.436436
+2972,Tokay at S Midvale,43.053747,-89.451649
+2978,Observatory at Elm,43.076561,-89.416289
+0298,Babcock at Linden,43.07529,-89.412894
+2980,Mineral Point at Berwyn,43.061005,-89.46102
+2984,S Whitney at Science,43.056023,-89.473507
+2996,Observatory at Babcock,43.076534,-89.413067
+2998,Kendall at N Franklin,43.071583,-89.436621
+0300,Erin at S Mills,43.059989,-89.40385
+0305,W Olin at Colby,43.052912,-89.383686
+3105,Nichols at Monona Center,43.063089,-89.340949
+3112,Nichols at McKenna,43.06245,-89.335778
+3143,Dean at Shore Acres,43.069197,-89.331585
+3150,E Broadway at Park And Ride,43.048092,-89.304921
+3153,Owl Creek at Voges,43.040575,-89.28935
+3155,Rimrock at Anderberg,43.028417,-89.382306
+3163,South Towne at Industrial,43.040035,-89.354352
+3195,Dutch Mill at Park And Ride,43.047429,-89.304367
+0320,Fisher at Dane,43.04312,-89.392033
+3207,Pheasant Ridge at E Badger,43.037147,-89.384534
+3222,Rimrock at Maloney,43.031309,-89.381281
+3231,Rimrock at Kent,43.033681,-89.380329
+3240,W Broadway at Falcon,43.047558,-89.330133
+3252,Moorland at Fell,43.035011,-89.370828
+3259,Moorland at Rimrock,43.035516,-89.379427
+0327,Regent at S Mills,43.067598,-89.403675
+F373,Valor at Star Spangled,43.027475,-89.295285
+3300,W Broadway at Bridge,43.047251,-89.340067
+F331,Freese at Siggelkow,43.026762,-89.289833
+3351,W Broadway at Bridge,43.046892,-89.339327
+0336,N Randall at Engineering,43.072028,-89.409136
+3368,W Broadway at Hoboken,43.047354,-89.347792
+3371,Ski at Novation,43.031767,-89.38587
+3393,Deer Valley at Pheasant Ridge,43.03464,-89.38519
+3429,Moorland at Fell,43.034778,-89.370693
+3432,Femrite at Dairy,43.051639,-89.296412
+3448,Rimrock at Anderberg,43.028238,-89.382652
+3450,W Broadway at W P S,43.047317,-89.344991
+3457,South Towne at Royal,43.042308,-89.354115
+F387,Valor at Eagles Perch,43.031996,-89.294943
+3491,Marsh at Voges,43.041029,-89.286635
+3500,E Badger at Rimrock,43.038416,-89.379635
+3513,Moorland at Badger,43.035406,-89.374603
+3517,Agriculture at Tradewinds,43.045554,-89.290241
+3518,Moorland at Manor,43.03292,-89.358147
+3527,Rimrock at Moorland,43.035927,-89.379538
+0353,W Badger at Fish Hatchery,43.038494,-89.403362
+3546,Dutch Mill at Ellestad,43.049316,-89.302007
+3550,Nichols at Monona Center,43.063267,-89.340529
+3572,Rimrock at Maloney,43.031228,-89.381601
+3588,Moorland at Wayland,43.033613,-89.366314
+F392,Brandenburg at Freese,43.028797,-89.291914
+0360,S Park at W Olin,43.054114,-89.396841
+3600,Pheasant Ridge at Deer Valley,43.034891,-89.385152
+3615,W Broadway at Frazier,43.046944,-89.351322
+F320,Marsh at Voges,43.040483,-89.286944
+3630,W Broadway at Frazier,43.047025,-89.352309
+0367,W Olin at Lake,43.053682,-89.386709
+3732,Rimrock at Moorland,43.035471,-89.380155
+3733,W Broadway at W P S,43.046949,-89.343881
+F340,Marsh at Yesterday,43.035434,-89.286892
+3772,South Towne at Royal,43.042622,-89.354584
+3787,Rimrock at E Badger,43.038595,-89.378636
+0379,John Nolen at E Olin,43.051603,-89.377887
+3821,Ski at Deer Valley,43.033325,-89.388003
+3827,Great Gray at Owl Creek,43.036424,-89.291875
+3832,Moorland at Badger,43.035621,-89.374788
+3841,W Broadway at Hoboken,43.047005,-89.34704
+0039,N Lake at W Johnson,43.071895,-89.397341
+3901,Nichols at Winnequah,43.06489,-89.344218
+0391,Fish Hatchery at Carver,43.044438,-89.403805
+3913,Moorland at Wayland,43.033371,-89.366314
+3931,W Broadway at Falcon,43.047262,-89.329356
+3941,Moorland at Manor,43.032705,-89.357851
+3946,Pheasant Ridge at Quail Run,43.037379,-89.384682
+3962,Deer Valley at Ski,43.033504,-89.388238
+3968,Rimrock at Kent,43.033484,-89.38086
+0398,Regent at N Randall,43.067877,-89.409353
+3980,South Towne at Industrial,43.039892,-89.354747
+0405,Fish Hatchery at Catalpa,43.041851,-89.403818
+0406,Regent at N Breese,43.067931,-89.414278
+4100,W Badger at South Transfer,43.038895,-89.394824
+4120,E Cheryl at Lacy,43.00672,-89.391581
+4129,Nakoma at Waban,43.041188,-89.44714
+4137,E Cheryl at Crinkle Root,43.006722,-89.3994
+4139,Beltline S at Grandview,43.035057,-89.4329
+4160,E Verona at Maple Grove,42.994627,-89.512341
+4175,Fish Hatchery at Ochalla,43.028889,-89.410668
+4179,Verona E at Atticus,43.033406,-89.456329
+0418,W Washington at N Bedford,43.069002,-89.392429
+F482,High Ridge at Cahill,43.022023,-89.419045
+4187,Todd at Pelham,43.029668,-89.42488
+4188,Fish Hatchery at Traceway,43.023947,-89.415295
+4192,Fish Hatchery at Emil,43.036793,-89.405423
+4193,E Cheryl at Big Bluestem,43.00674,-89.403507
+4194,E Cheryl at Woods Hollow,43.005014,-89.420033
+4200,Fitchrona at Target,43.013488,-89.480827
+4201,Fitchrona at Hy-Vee,43.013846,-89.480531
+4210,Post at Leopold,43.026633,-89.423943
+4216,Todd at Post,43.026974,-89.42625
+4219,Todd at Beltline S,43.034153,-89.422808
+4224,Greenway at Coho,43.031029,-89.414468
+4240,McKee at Commerce Park,43.015615,-89.467717
+4245,E Cheryl at Woods Hollow,43.004808,-89.420637
+4253,Lacy at E Cheryl,43.006801,-89.39073
+4257,Nakoma at Huron,43.048539,-89.438332
+4261,E Verona at S Main,42.990502,-89.533087
+4263,Verona E at Britta,43.035313,-89.453899
+4295,Red Arrow at Verona E,43.032475,-89.457735
+4310,W Verona at Legion,42.989314,-89.540273
+4325,Coho at Post,43.02717,-89.414789
+4326,Verona W at Summit,43.035017,-89.457576
+F442,S Midvale at Cherokee,43.042198,-89.451385
+4343,E Cheryl at No Oaks,43.007043,-89.395071
+4346,Nakoma at Waban,43.041232,-89.447486
+4347,Nakoma at Seminole,43.044044,-89.443476
+4354,S Midvale at Nakoma,43.038564,-89.451408
+F455,S Midvale at Nakoma,43.039307,-89.450853
+F460,Grandview at Beltline S,43.03486,-89.43369
+4368,Verona at Highway Ramp,43.035913,-89.454368
+4373,Greenway at Bryant,43.031136,-89.410841
+4377,Beltline S at Landmark,43.03469,-89.428335
+4379,Fitchrona at McKee,43.016057,-89.480533
+0438,Linden at N Charter,43.074985,-89.406401
+4382,Nakoma at Huron,43.048243,-89.439035
+4401,Northern Lights at Epic Staff C,42.996855,-89.563863
+4412,Beltline S at Grandview,43.035263,-89.43311
+4430,Beltline S at Whenona,43.034651,-89.448468
+4435,Lacy at Central Park,43.009136,-89.388225
+F437,Verona E at Red Arrow,43.032331,-89.457994
+4443,Fish Hatchery at Greenway,43.031708,-89.408657
+4446,Allied at Jenewein,43.028714,-89.459571
+4456,Verona E at Britta,43.035036,-89.454664
+4457,E Verona at Maple Grove,42.994438,-89.513007
+F466,Grandview at Kingston,43.029686,-89.431851
+0448,Rimrock at E Rusk,43.04248,-89.377683
+4481,Verona W at Summit,43.034006,-89.457341
+4485,McKee at Fitchrona,43.015547,-89.480286
+4494,Verona W at Beltline S,43.035994,-89.454726
+4500,Red Arrow at Thurston,43.030944,-89.456698
+4501,Nakoma at Mohawk,43.039012,-89.450002
+4510,Fitchrona at McKee,43.01526,-89.480816
+4519,W Verona at Half Mile,42.988306,-89.545956
+4520,E Cheryl at Agrace,43.005095,-89.417024
+4523,Fish Hatchery at Post,43.026722,-89.41226
+4526,Post at Todd,43.027072,-89.425966
+4539,Beltline S at Seminole,43.034367,-89.443227
+4541,Fitchrona at Kapec,43.018594,-89.475199
+4547,Allied at Jenewein,43.028831,-89.459251
+F451,S Midvale at Cherokee,43.042324,-89.450879
+4552,E Cheryl at No Oaks,43.007249,-89.394689
+4554,Post at Coho,43.027009,-89.415332
+4555,W Verona at West End,42.987718,-89.552773
+4556,E Verona at Enterprise,42.99287,-89.526778
+0456,Fish Hatchery at Carver,43.044304,-89.404113
+4560,Beltline S at Seminole,43.034554,-89.443979
+4572,Todd at Pelham,43.029999,-89.425016
+0459,Erin at S Mills,43.059774,-89.403665
+4613,Post at Traceway,43.026589,-89.419082
+0462,W Badger at Overpass,43.038517,-89.388457
+4622,Fish Hatchery at Greenway,43.031136,-89.409595
+4623,E Verona at Enterprise,42.992557,-89.526432
+4637,Fish Hatchery at Traceway,43.024198,-89.414469
+4639,Todd at Greenway,43.031521,-89.423091
+F443,S Whitney at Kroncke,43.027545,-89.475115
+4648,E Cheryl at Crinkle Root,43.007017,-89.399585
+F454,S Whitney at Kroncke,43.027876,-89.475596
+F463,Allied at Thurston,43.031167,-89.458882
+4684,McKee at Fish Hatchery,43.015703,-89.425188
+4688,Beltline S at Underpass,43.035943,-89.452355
+0469,W Washington at Southwest,43.067543,-89.394121
+0470,N Bassett at W Dayton,43.071625,-89.39286
+4707,Fish Hatchery at Caddis,43.019436,-89.418898
+4719,Beltline S at Underpass,43.035578,-89.451587
+4722,E Cheryl at Big Bluestem,43.007054,-89.40368
+0473,W Washington at S Bassett,43.070228,-89.390293
+4732,W Verona at N Main,42.990501,-89.534012
+4739,Greenway at Coho,43.030814,-89.414283
+0475,S Park at Buick,43.041625,-89.393786
+4751,Verona W at Beltline S,43.036074,-89.45427
+4752,Fish Hatchery at Post,43.026329,-89.413136
+4755,McKee at Commerce Park,43.015257,-89.467027
+4761,Beltline S at Whenona,43.03461,-89.448759
+4767,Lacy at S Fish Hatchery,43.001102,-89.42742
+4777,Verona at Highway Ramp,43.036334,-89.452935
+F488,Royal Wulff at High Ridge,43.021226,-89.421599
+4790,Fish Hatchery at Greenway,43.031977,-89.40899
+4791,Allied at Lovell,43.027076,-89.459546
+4798,Verona E at Atticus,43.033666,-89.455922
+0480,W Gorham at N Henry,43.075322,-89.391155
+4801,Research Park at Lacy,43.001541,-89.425311
+4812,W Verona at West End,42.98804,-89.553476
+4818,Todd at Greenway,43.031844,-89.423215
+4826,Post at Traceway,43.026759,-89.419835
+4836,Fitchrona at King James,43.019032,-89.474097
+4837,Post at Leopold,43.026356,-89.423227
+4838,E Verona at Hometown,42.994093,-89.519406
+4841,Beltline S at Todd,43.03486,-89.423054
+4844,Fish Hatchery at Ochalla,43.028566,-89.411458
+4845,Fish Hatchery at Emil,43.036793,-89.40493
+4848,Nakoma at Seminole,43.043757,-89.444217
+4861,Red Arrow at Thurston,43.031589,-89.456538
+4876,Beltline S at Curry,43.035156,-89.425127
+0488,Linden at N Charter,43.0752,-89.407339
+4886,Greenway at Bryant,43.031243,-89.411149
+4887,Research Park at E Cheryl,43.004907,-89.425163
+4889,E Verona at Hometown,42.993736,-89.51906
+0049,N Lake at Langdon,43.075529,-89.397191
+0490,N Charter at W Johnson,43.072299,-89.405883
+4905,W Verona at Legion,42.989036,-89.540667
+F414,Grandview at Sandwood,43.026982,-89.431505
+4918,W Verona at Half Mile,42.988503,-89.546165
+0492,John Nolen at Lakeside,43.055713,-89.381932
+4941,Fish Hatchery at High Ridge,43.021316,-89.417158
+F445,Post at Todd,43.026741,-89.426126
+F453,Post at Coho,43.026767,-89.414579
+0496,Koster at Ardmore,43.044148,-89.385493
+4968,Beltline S at Landmark,43.034959,-89.428619
+4970,Lacy at Central Park,43.008966,-89.389002
+4971,E Cheryl at Agrace,43.004889,-89.416543
+4983,Fish Hatchery at McKee,43.015452,-89.424177
+4984,Fitchrona at Kapec,43.018924,-89.476255
+0499,Fish Hatchery at W Badger,43.038914,-89.403757
+0005,W Dayton at N Orchard,43.070947,-89.406982
+F515,Northland at Mandrake,43.14502,-89.378184
+5109,Northport at Dryden,43.12877,-89.358748
+0512,W Washington at N Bassett,43.069986,-89.391021
+5125,N Sherman at Logan,43.116255,-89.363627
+5142,Troy at Forster,43.133799,-89.373212
+5143,Packers at International,43.121883,-89.354777
+5149,Northport at Troy,43.133843,-89.371235
+5162,N Sherman at Northport,43.130277,-89.363664
+5164,Northport at Dryden,43.129128,-89.358711
+F573,School at Fulton,43.143723,-89.382732
+5178,Troy at Goodland,43.133855,-89.377734
+0519,S Park at Fish Hatchery,43.057212,-89.398803
+5193,N Sherman at Schlimgen,43.118762,-89.3636
+5197,Troy at Green,43.134773,-89.396996
+0052,Observatory at N Charter,43.076131,-89.40566
+5203,Green at Meadow Ridge,43.137513,-89.397687
+5228,Packers at Manley,43.123674,-89.355343
+5244,Packers at Tennyson,43.1344,-89.355518
+5260,Troy at Crosswalk,43.133856,-89.380576
+F572,Havey at Kennedy,43.141173,-89.387664
+F599,Wheeler at Delaware,43.148216,-89.375092
+F030,Fish Hatchery at Cedar,43.051913,-89.399261
+5304,N Sherman at Farragut,43.117446,-89.36391
+0532,Linden at Babcock,43.075254,-89.412549
+5320,Packers at Elka,43.125832,-89.355489
+0533,Regent at S Breese,43.067725,-89.413451
+5335,Tennyson at N Sherman,43.134771,-89.363178
+5342,Troy at Karstens,43.133875,-89.386296
+5346,Northport at Warner Park,43.132561,-89.367294
+F547,Wheeler at Golf View,43.147541,-89.367122
+F549,Wheeler at Comanche,43.148187,-89.371632
+5358,N Sherman at Melrose,43.12289,-89.363794
+5366,Northport at N Sherman,43.131002,-89.363774
+0537,W Johnson at Wisconsin,43.076691,-89.387018
+5382,N Sherman at Trailsway,43.126256,-89.363729
+5397,Knutson at Northport,43.141738,-89.392569
+5407,N Sherman at Melrose,43.123436,-89.363497
+5411,Delaware at Dakota,43.143306,-89.368114
+5420,Packers at Schlimgen,43.118418,-89.355287
+5432,N Sherman at Lake View,43.137341,-89.363411
+5433,Packers at Manley,43.123888,-89.354861
+0546,S Park at Regent,43.067392,-89.401194
+0548,Regent at N Mills,43.067822,-89.404428
+F505,Havey at School,43.140939,-89.383141
+5536,Troy at Lerdahl,43.133885,-89.389299
+5546,Packers at Scott,43.132574,-89.355495
+F056,Buick at Taft,43.04184,-89.392935
+0561,N Park at W Dayton,43.070821,-89.400637
+F525,School at Northland,43.145953,-89.382644
+0564,W Wilson at S Henry,43.070692,-89.384195
+0565,N Rusk at Nygard,43.041336,-89.384063
+5657,Murphy at Green,43.138946,-89.396673
+5663,Northport at Barby,43.137124,-89.380833
+5683,N Sherman at Trailsway,43.126059,-89.363445
+5715,Northport at Kennedy,43.139714,-89.38832
+0573,Linden at Henry,43.075012,-89.409833
+5733,Packers at Schlimgen,43.118633,-89.354829
+5748,N Sherman at Schlimgen,43.11904,-89.363884
+5777,Packers at Elka,43.125634,-89.354921
+5796,Troy at School,43.133866,-89.38359
+5815,Northport at Goodland,43.135743,-89.376621
+0582,S Park at Crosswalk,43.046916,-89.394302
+5823,N Sherman at Northside Town,43.128745,-89.363393
+5835,North at Central Wisconsin,43.140754,-89.39519
+5847,Delaware at Esch,43.144561,-89.370288
+5856,Packers at International,43.121292,-89.355271
+5865,Delaware at Tennessee,43.144938,-89.373735
+5888,N Sherman at Sunfield,43.139194,-89.363335
+5899,Northport at Warner Park,43.132149,-89.367295
+0590,W Badger at Cypress,43.038645,-89.397699
+F501,Kennedy at Havey,43.140931,-89.387887
+0593,N Broom at W Dayton,43.073129,-89.391032
+5950,Troy at Harper,43.133895,-89.393067
+0060,Observatory at Bascom,43.075996,-89.40366
+0061,W Dayton at N Mills,43.070893,-89.403698
+6105,Watts at S High Point,43.051863,-89.517401
+6106,Allen at Mendota,43.095966,-89.486157
+6110,Valley Ridge at South Ridge,43.112731,-89.475179
+6114,Fourier at Deming,43.085714,-89.527917
+6115,Old Sauk at Everglade,43.075126,-89.497915
+F619,N High Point at Old Sauk,43.075354,-89.518495
+6123,Watts at S Burberry,43.050845,-89.513376
+6128,Century at Marina,43.105761,-89.484684
+6137,Excelsior at Deming,43.076553,-89.531014
+F652,N High Point at Crosswalk,43.078004,-89.518906
+6159,S Gammon at Odana,43.056859,-89.502622
+6161,Old Sauk at Crestwood School,43.075134,-89.48157
+6167,Century at Allen,43.104085,-89.488128
+6169,Odana at Research Park,43.053448,-89.486217
+6171,Allen at Marshall Park,43.094023,-89.485488
+6176,Old Sauk at N Gammon,43.076717,-89.502201
+6177,Branch at Maywood,43.100591,-89.493324
+6180,Fourier at La Petite,43.08345,-89.526766
+6184,S High Point at Tree,43.064361,-89.517529
+6188,Odana at Research Park,43.053672,-89.486353
+6189,Old Sauk at N High Point,43.074862,-89.518173
+6192,Park at Elmwood,43.09627,-89.501877
+6193,Watts at Commerce,43.054894,-89.522465
+6199,Watts at Walmart,43.050366,-89.506983
+6204,Watts at N Burberry,43.051158,-89.514142
+6207,Century at Donna,43.106112,-89.49801
+0621,John Nolen at Lakeside,43.056322,-89.381932
+6223,Odana at Grand Canyon,43.056183,-89.49587
+6233,Old Sauk at Ozark,43.075104,-89.488705
+6237,Watts at Princeton Club,43.054081,-89.52081
+6241,Odana at Potomac,43.054905,-89.491599
+6243,University at Capital,43.084644,-89.477677
+6246,Excelsior at Fourier,43.080291,-89.525045
+6256,Parmenter at Donna,43.105585,-89.511052
+6258,Excelsior at Crosswalk,43.079464,-89.529426
+6261,Deming at Terrace,43.095244,-89.523437
+6266,Odana at Potomac,43.05512,-89.491784
+6269,S Gammon at Watts,43.050512,-89.502874
+6279,Junction at U W Health,43.069647,-89.524622
+6288,Century at Donna,43.106685,-89.498394
+6290,S High Point at D'Onofrio,43.0565,-89.517851
+6291,University at Allen,43.089287,-89.485669
+6301,Allen at Mendota,43.096566,-89.485737
+6304,Deming at Terrace,43.095477,-89.523721
+6306,Branch at Maywood,43.100098,-89.493743
+F639,Sawmill at N Westfield,43.079882,-89.509278
+6318,Allen at Maywood,43.100218,-89.486543
+6320,N Gammon at Sawmill,43.08088,-89.502452
+6334,Heartland at Deming,43.076749,-89.531842
+6340,Old Sauk at Ozark,43.075319,-89.489002
+6342,Old Sauk at Samuel,43.075013,-89.53137
+6350,West Towne Ring at West Towne Mall,43.057423,-89.504005
+6357,Odana at Burlington Coat,43.056503,-89.499795
+6365,Junction at City Center West,43.072171,-89.525082
+6368,Junction at Prairie Towne,43.065348,-89.52585
+6382,Odana at Grand Canyon,43.056746,-89.496969
+F685,Old Sauk at Junction,43.074703,-89.526506
+6388,Century at Park,43.108948,-89.501496
+6394,Parmenter at Lee,43.100929,-89.511565
+6395,Branch at University,43.096704,-89.495246
+6422,S Gammon at Odana,43.055462,-89.503262
+6430,Junction at City Center West,43.07149,-89.525192
+6439,Allen at University,43.090191,-89.485645
+6455,S Junction at Watts,43.05592,-89.527329
+6464,Watts at Walmart,43.050679,-89.50786
+6473,S High Point at Mineral Point,43.060878,-89.517327
+6476,J Q Hammons at Greenway,43.090865,-89.524776
+6483,Old Sauk at Samuel,43.074682,-89.531184
+6489,Century at Branch,43.104074,-89.492241
+6504,Watts at Princeton Club,43.054332,-89.520489
+6506,Old Sauk at Everglade,43.07534,-89.498211
+F609,N High Point at Crosswalk,43.077789,-89.518597
+6531,N High Point at Sauk Creek,43.072435,-89.519676
+6539,S High Point at Tree,43.064361,-89.517233
+6543,Park at South,43.093289,-89.501726
+6560,Valley Ridge at Century,43.110546,-89.474893
+6570,Old Sauk at Widgeon,43.075197,-89.513099
+F675,N High Point at Tramore,43.081218,-89.519182
+6582,Century at Baskerville,43.10793,-89.480227
+F688,Old Sauk at N High Point,43.075184,-89.519025
+6611,N Gammon at Fortune,43.088257,-89.501954
+6625,Branch at Franklin,43.098012,-89.494235
+6628,Century at Branch,43.104468,-89.493031
+6630,Watts at S High Point,43.052131,-89.518462
+6632,University at Mayflower,43.097176,-89.499248
+6638,Odana at Town Center,43.056717,-89.500363
+F640,N High Point at Tramore,43.081083,-89.519478
+6642,Allen at Lake,43.102877,-89.486484
+6650,Branch at Franklin,43.097904,-89.49463
+6651,Century at Marina,43.105555,-89.484276
+6653,Century at Baskerville,43.107715,-89.479831
+6656,Deming at Murphy,43.098028,-89.523391
+6663,Century at Northbrook,43.110978,-89.506378
+6665,N High Point at Brule,43.068103,-89.51746
+6667,J Q Hammons at Greenway,43.090507,-89.524479
+6676,Century at Allen,43.104596,-89.4874
+6678,Old Sauk at Crestwood School,43.07534,-89.481916
+6683,Parmenter at Lee,43.101063,-89.511268
+6684,Century at Northbrook,43.111398,-89.507119
+6685,Odana at S Gammon,43.056484,-89.502325
+6689,Fourier at J Q Hammons,43.08227,-89.524702
+6691,Allen at Maywood,43.100371,-89.486074
+6700,Old Sauk at Junction,43.075034,-89.527506
+6706,Branch at Pheasant,43.103035,-89.493042
+6720,Watts at Sky Ridge,43.050793,-89.511044
+6721,Parmenter at Donna,43.106203,-89.510435
+6733,Greenway at Deming,43.089941,-89.526664
+6748,Junction at Mineral Point,43.061363,-89.52772
+6784,Old Sauk at Yosemite,43.075316,-89.493952
+6802,N Gammon at Fortune,43.088203,-89.502251
+6803,Branch at Pheasant,43.102964,-89.492758
+6805,Parmenter at Franklin,43.098449,-89.511339
+6814,N High Point at Brule,43.06838,-89.517744
+6818,Junction at U W Health,43.069288,-89.524954
+6822,University at Branch,43.096829,-89.495938
+6823,Fourier at Excelsior,43.080211,-89.52439
+6827,S High Point at D'Onofrio,43.057181,-89.517544
+6840,Junction at Old Sauk,43.074407,-89.527221
+6842,Watts at Commerce,43.055243,-89.52328
+6843,Excelsior at Crosswalk,43.079294,-89.52913
+6852,Parmenter at Century,43.111119,-89.509787
+F654,Sawmill at N Gammon,43.081265,-89.502663
+6857,Old Sauk at Yosemite,43.075101,-89.493656
+6863,Watts at S Junction,43.055401,-89.527081
+6878,South Ridge at Highway Q,43.113117,-89.47198
+6887,Park at Hubbard,43.095483,-89.501617
+6891,University at Mayflower,43.096845,-89.498507
+6894,Allen at Marshall Park,43.093745,-89.485932
+6899,University at Park,43.096898,-89.501211
+6900,Park at South,43.093155,-89.502022
+6901,Century at Valley Ridge,43.110287,-89.474572
+F610,Sawmill at N Westfield,43.080025,-89.509575
+0692,University at N Breese,43.073517,-89.414277
+6921,Old Sauk at N Gammon,43.076493,-89.501941
+6923,Junction at Mineral Point,43.060781,-89.527262
+6925,Junction at Prairie Towne,43.065214,-89.525368
+6931,Fourier at La Petite,43.084041,-89.526841
+6937,Old Sauk at N Westfield,43.075084,-89.50705
+6938,Watts at S Gammon,43.050288,-89.503762
+6944,Fourier at J Q Hammons,43.081661,-89.524417
+6952,Odana at Tokay,43.051678,-89.481698
+6958,Deming at J Q Hammons,43.09398,-89.525263
+6972,N High Point at Old Sauk,43.074682,-89.518778
+6973,Century at Parmenter,43.111397,-89.509071
+6979,Watts at Sky Ridge,43.050525,-89.510821
+6981,Deming at Fourier,43.086234,-89.528128
+6983,Deming at J Q Hammons,43.0939,-89.524929
+0706,N Charter at University,43.073767,-89.406352
+0709,S Park at Burr Oak,43.044427,-89.39381
+0710,S Bassett at W Washington,43.069834,-89.390515
+7107,Turner at Pflaum,43.062496,-89.314067
+7111,E Buckeye at Dondee,43.073193,-89.3017
+7114,Monona at Buckeye,43.079604,-89.324201
+7115,Turner at Allis,43.071118,-89.314004
+F712,Dominion at Galileo,43.091704,-89.272766
+F713,Buckeye at Monona,43.079577,-89.323571
+7134,Wyalusing at Stockbridge,43.094385,-89.261214
+7137,Dempsey at Cottage Grove,43.084173,-89.31612
+F714,Acewood at Onyx,43.091645,-89.302377
+7148,Milwaukee at Milky,43.099278,-89.279801
+0715,S Park at Meriter,43.065378,-89.400515
+F751,S Thompson at 1309,43.079683,-89.283323
+F754,Merryturn at Kevins,43.088745,-89.29322
+F756,Acewood at Starker,43.076981,-89.303514
+F763,Dominion at Traveler,43.091575,-89.269679
+7167,Milwaukee at Walbridge,43.098334,-89.313368
+7169,Milwaukee at Dempsey,43.098186,-89.318296
+7175,Milwaukee at Swanton,43.098717,-89.301055
+F776,Acewood at Cottage Grove,43.083875,-89.303317
+F718,Starker at Acewood,43.076981,-89.303045
+F711,Acewood at Leo,43.081036,-89.302778
+F786,S Thompson at Vondron,43.067408,-89.291248
+F788,Starker at Angel Crest,43.07705,-89.30002
+7198,Milwaukee at Milo,43.098855,-89.305069
+7203,E Buckeye at Ellen,43.073358,-89.288052
+7206,E Buckeye at Dondee,43.073346,-89.302483
+7209,Milwaukee at Portland,43.09858,-89.30728
+F721,Vondron at E Buckeye,43.073693,-89.291347
+F724,Merryturn at Retana,43.091885,-89.291214
+7215,Atwood at Cottage Grove,43.08409,-89.325022
+L723,Vondron at S Thompson,43.06756,-89.291297
+7226,Femrite at Agriculture,43.051751,-89.292043
+F720,Merryturn at Sudbury,43.096102,-89.291095
+7232,Pflaum at Groveland,43.062188,-89.320363
+7235,E Buckeye at S Stoughton E,43.073082,-89.307965
+7236,Milwaukee at Rustic,43.099652,-89.270143
+7247,Buckeye at Turner,43.07366,-89.313778
+7248,Milwaukee at Swanton,43.098923,-89.301426
+F755,S Thompson at E Buckeye,43.073836,-89.282792
+F758,North Star at Copernicus,43.089533,-89.27692
+7263,Cottage Grove at S Thompson,43.084271,-89.286759
+7269,Wyalusing at Dominion,43.091511,-89.26111
+F782,Acewood at Leo,43.080867,-89.303272
+7296,Atwood at Margaret,43.087494,-89.327412
+0730,S Park at Burr Oak,43.044293,-89.394303
+7302,Pflaum at Daniels,43.062526,-89.297454
+7306,Dempsey at Rockwell,43.08796,-89.316484
+F710,S Thompson at Milwaukee,43.098741,-89.288879
+7324,E Buckeye at Vondron,43.073523,-89.291879
+F725,S Thompson at Rustic Wood,43.07072,-89.281786
+7326,Wyalusing at Summertown,43.096893,-89.261999
+7328,Buckeye at Turner,43.073947,-89.314494
+7331,Agriculture at Dairy,43.059425,-89.293646
+7333,E Buckeye at S Thompson,43.07346,-89.282558
+7334,Cottage Grove at North Star,43.084729,-89.280004
+7335,E Buckeye at Twilight,43.073269,-89.298718
+7341,Cottage Grove at Drexel,43.083657,-89.320121
+F733,Starker at Angel Crest,43.076835,-89.299835
+7348,Turner at Ruth,43.070061,-89.314438
+7351,Pflaum at Camden,43.062145,-89.311315
+0736,Fish Hatchery at Wingra,43.050122,-89.400212
+F739,Acewood at Goldfinch,43.088431,-89.302617
+7371,Milwaukee at North Star,43.099148,-89.275677
+7374,Dempsey at Cottage Grove,43.083627,-89.316404
+F777,Dominion at Galileo,43.091489,-89.272581
+7381,Milwaukee at Daffodil,43.098794,-89.296733
+7385,Agriculture at Femrite,43.051938,-89.291488
+7391,Pflaum at Advance,43.06228,-89.302811
+7392,Cottage Grove at Flora,43.084445,-89.299698
+7398,Milwaukee at Dempsey,43.0984,-89.317925
+7399,Dempsey at Gary,43.081576,-89.316099
+7410,Cottage Grove at Atlas,43.08429,-89.307328
+7412,Agriculture at Pflaum,43.06143,-89.293839
+F745,North Star at Cottage Grove,43.084916,-89.279498
+7417,Agriculture at World Dairy,43.056656,-89.29138
+7419,Dempsey at Pinney,43.085838,-89.316154
+0743,W Johnson at N Mills,43.072012,-89.403735
+F743,North Star at Copernicus,43.089283,-89.276871
+F747,Merryturn at Retana,43.092019,-89.290917
+7458,Agriculture at Dairy,43.059255,-89.29388
+7470,Milwaukee at Kurt,43.099058,-89.292793
+7471,Cottage Grove at Meadowlark,43.084163,-89.295414
+7473,Davies at Drexel,43.07882,-89.317128
+7479,E Buckeye at Vondron,43.073326,-89.291002
+7490,Dempsey at Gary,43.081362,-89.316396
+7499,Pflaum at Seiferth,43.062222,-89.307748
+0075,W Dayton at N Park,43.070839,-89.40002
+F757,S Thompson at Grafton,43.076656,-89.282663
+F735,Starker at Woodvale,43.076921,-89.295995
+0752,E Gorham at N Butler,43.079833,-89.384745
+7520,Pflaum at Camden,43.062351,-89.312068
+F726,North Star at Orion,43.088291,-89.278947
+F753,North Star at Dominion,43.091286,-89.274891
+7532,Cottage Grove at Meadowlark,43.084468,-89.296352
+7538,E Buckeye at S Stoughton E,43.073215,-89.307113
+7540,Cottage Grove at S Thompson,43.084611,-89.286943
+7544,E Buckeye at Woodvale,43.073474,-89.296187
+7547,Milwaukee at S Thompson,43.098902,-89.28836
+F750,S Thompson at Forge,43.066532,-89.283794
+7552,Milwaukee at Daffodil,43.099009,-89.296918
+7553,Milwaukee at S Sprecher,43.099396,-89.266167
+7557,Buckeye at Lakeview,43.074908,-89.317615
+7565,S Sprecher at Cottage Grove,43.085305,-89.266607
+7567,Davies at Buckeye,43.077076,-89.319674
+7569,Agriculture at Pflaum,43.061654,-89.293666
+0757,N Charter at University,43.07417,-89.406055
+7578,Turner at Buckeye,43.073535,-89.314284
+7581,Wyalusing at Stockbridge,43.094036,-89.260845
+7587,Milwaukee at Rustic,43.099311,-89.269884
+F701,Starker at Vondron,43.076979,-89.291699
+7604,Milwaukee at North Star,43.099345,-89.276244
+7607,Cottage Grove at Dempsey,43.083796,-89.315886
+7608,Cottage Grove at Acewood,43.084368,-89.30355
+7610,E Buckeye at S Thompson,43.073658,-89.283311
+7617,Pflaum at Daniels,43.062303,-89.297997
+7619,Cottage Grove at Flora,43.084095,-89.299501
+F768,Dominion at S Sprecher,43.091707,-89.267185
+7633,Milwaukee at Milo,43.098649,-89.304884
+7638,Dempsey at Dennett,43.090028,-89.316543
+0765,N Lake at University,43.073076,-89.397291
+7654,Davies at Drexel,43.079151,-89.317066
+F781,S Thompson at Vondron,43.067193,-89.291076
+7663,Turner at Hob,43.066158,-89.314259
+7668,Pflaum at Seiferth,43.062446,-89.307464
+0768,W Washington at Southwest,43.067928,-89.393972
+F780,S Thompson at 1306,43.079486,-89.283546
+7687,E Buckeye at Woodvale,43.073297,-89.295417
+7689,Buckeye at Camden,43.073425,-89.311433
+7694,Turner at Hob,43.066436,-89.314542
+F702,Vondron at S Thompson,43.067473,-89.291532
+7704,Dempsey at Hynek,43.092535,-89.316514
+7716,Turner at Allis,43.071395,-89.3143
+7718,Cottage Grove at Drexel,43.083863,-89.320306
+F723,Merryturn at Sudbury,43.096236,-89.290798
+7729,Turner at Ruth,43.069739,-89.314192
+F773,Merryturn at Kevins,43.08887,-89.292924
+7734,Milwaukee at Walbridge,43.09854,-89.313578
+7739,Pflaum at Groveland,43.061973,-89.320153
+7745,Atwood at Margaret,43.087458,-89.327029
+7748,Cottage Grove at Ellen,43.084578,-89.289684
+F760,S Thompson at Rustic Wood,43.070129,-89.281874
+F764,Vondron at E Buckeye,43.073076,-89.291632
+F766,Starker at Vondron,43.077194,-89.291884
+7782,Dempsey at Pinney,43.08608,-89.31645
+F772,S Thompson at E Buckeye,43.073228,-89.283003
+F784,Dominion at Traveler,43.091781,-89.269864
+0782,W Badger at Fiedler,43.03869,-89.401869
+F722,Vondron at Dolores,43.069951,-89.291614
+7823,Buckeye at Davies,43.0767,-89.319896
+7829,Dempsey at Rockwell,43.087691,-89.316188
+F730,Inwood at Open Wood,43.0858,-89.294349
+7834,Atwood at Cottage Grove,43.083356,-89.325035
+7838,Buckeye at Lakeview,43.075454,-89.317923
+F740,S Thompson at Grafton,43.076889,-89.28286
+7842,Milwaukee at Portland,43.098768,-89.308033
+L781,Vondron at Dolores,43.070166,-89.291317
+7867,Wyalusing at Summertown,43.096875,-89.261628
+7888,Atwood at Walter,43.089178,-89.32925
+7892,Milwaukee at N Thompson,43.099109,-89.289298
+F785,S Thompson at Forge,43.066255,-89.284054
+F798,Acewood at Goldfinch,43.088781,-89.302863
+F797,Inwood at Open Wood,43.08597,-89.294114
+0791,W Wilson at S Henry,43.070262,-89.384331
+7910,Milwaukee at N Sprecher,43.099729,-89.267315
+F792,Acewood at Agate,43.094743,-89.302359
+7913,Milwaukee at Kurt,43.098844,-89.293176
+F716,Starker at Woodvale,43.077144,-89.295501
+7918,E Buckeye at Kings Mill,43.074709,-89.278075
+7920,Agriculture at World Dairy,43.05611,-89.291677
+F795,Acewood at Cottage Grove,43.084546,-89.302846
+7929,Milwaukee at Milky,43.099071,-89.279048
+F790,North Star at Dominion,43.091152,-89.2752
+F793,Acewood at Agate,43.094877,-89.302063
+7955,Monona at Buckeye,43.079675,-89.32388
+7968,E Buckeye at Twilight,43.073432,-89.298866
+F769,Acewood at Onyx,43.091779,-89.30208
+7984,E Buckeye at Ellen,43.073573,-89.288237
+7989,Cottage Grove at Atlas,43.083958,-89.306564
+7990,Dempsey at Overpass,43.095597,-89.316435
+7991,Cottage Grove at Ellen,43.084238,-89.289389
+8100,Raymond at Prairie,43.032042,-89.48917
+8101,Raymond at Prairie,43.031702,-89.488368
+F826,S Pleasant View at Mid Town,43.030938,-89.533299
+8131,S Gammon at Schroeder,43.046501,-89.50303
+8135,Reetz at Raymond,43.03216,-89.461473
+8138,S Whitney at Piping Rock,43.041823,-89.477643
+8153,Muir Field at Tucson,43.017338,-89.511026
+8154,Hammersley at Reetz,43.039161,-89.460885
+0816,Fish Hatchery at W Badger,43.038377,-89.404275
+8160,S Gammon at Gammon,43.043734,-89.5041
+8166,McKenna at Hammersley,43.038678,-89.500146
+8173,S Whitney at Hammersley,43.039442,-89.477332
+8174,Waldorf at Mansion Hill,43.034346,-89.525002
+8180,S Gammon at Schroeder,43.045897,-89.503357
+8186,Raymond at Lewon,43.032015,-89.468222
+8188,McKenna at Elver Park,43.039205,-89.502639
+8192,Muir Field at Tucson,43.017222,-89.511568
+F814,McKenna at Lancaster,43.021972,-89.503174
+8224,Muir Field at Lindfield,43.027135,-89.50582
+8235,Schroeder at Saybrook,43.046254,-89.479263
+8237,Schroeder at Forward,43.046205,-89.488444
+8241,Schroeder at Highway Ramp,43.046282,-89.475511
+8246,Starr Grass at S High Point,43.038469,-89.518518
+8251,Mid Town at S Pleasant View,43.031243,-89.532757
+8255,Schroeder at S Gammon,43.046125,-89.502437
+F859,Carnwood at Maple Grove,43.020005,-89.498965
+8263,Maple Grove at Westin,43.01287,-89.498773
+8268,Woods at Mid Town,43.030929,-89.553002
+8273,Mid Town at Woods,43.031099,-89.552472
+8274,S Whitney at Gilbert,43.044277,-89.474227
+0828,E Rusk at Rimrock,43.04282,-89.377831
+8281,McKenna at Raymond,43.032127,-89.49677
+8285,Raymond at Lewon,43.031666,-89.468604
+8297,S Whitney at Raymond,43.03228,-89.476537
+8301,McKenna at Morraine View,43.041791,-89.504702
+F806,Manchester at Westin,43.01094,-89.492517
+8341,S Whitney at Bartlett,43.034151,-89.477094
+8363,Raymond at Leland,43.031724,-89.479917
+8379,McKee at Muir Field,43.015673,-89.510974
+8386,Mid Town at Hawks Landing,43.031339,-89.545243
+F888,Carnwood at Maple Grove,43.02022,-89.499151
+F889,Mid Town at Mica,43.031273,-89.528562
+0839,W Johnson at N Broom,43.073639,-89.391365
+0840,S Park at W Washington,43.06288,-89.401022
+8404,Raymond at Reetz,43.031874,-89.462003
+8405,Muir Field at Carnwood,43.020117,-89.506231
+8427,Schroeder at White Oaks,43.046234,-89.484384
+F848,S Whitney at Raymond,43.031492,-89.476981
+8432,McKee at Tanglewood,43.015793,-89.505683
+8435,Waldorf at Mansion Hill,43.034275,-89.524681
+0845,Fish Hatchery at Plaenert,43.049317,-89.400521
+8452,S Whitney at Hammersley,43.039307,-89.477838
+F841,Carnwood at McKenna,43.019618,-89.502752
+8469,Muir Field at McKee,43.016076,-89.511333
+0847,Fish Hatchery at Cedar,43.052226,-89.398928
+8486,Muir Field at Lancaster,43.022248,-89.505629
+8496,McKenna at Morraine View,43.041356,-89.505043
+8511,S High Point at Starr Grass,43.03864,-89.517975
+8512,Raymond at S Whitney,43.032056,-89.477487
+8513,McKenna at Elver Park,43.038892,-89.50217
+8519,Muir Field at Gladstone,43.024531,-89.505311
+8528,McKenna at Park Heights,43.03535,-89.496959
+8537,Schroeder at Chapel Hill,43.046175,-89.493466
+8561,Maple Grove at Manchester,43.007669,-89.498841
+8569,McKenna at Park Heights,43.035574,-89.496725
+8572,Muir Field at Gladstone,43.024396,-89.505607
+F854,Hammersley at Lewon,43.039213,-89.467005
+8597,Waldorf at Mid Town,43.031785,-89.526281
+F804,Hammersley at Gilbert,43.039246,-89.473236
+8605,S Whitney at Gilbert,43.044098,-89.473782
+0862,John Nolen at E Olin,43.05034,-89.3779
+F828,Hammersley at Saalsaa,43.039092,-89.496963
+8633,S Whitney at Piping Rock,43.041922,-89.477038
+8634,Raymond at McKenna,43.031957,-89.497301
+8662,Mid Town at S Pleasant View,43.031448,-89.533584
+F864,Prairie at Hammersley,43.038864,-89.488646
+8679,Muir Field at Silverton,43.018119,-89.508474
+8690,S High Point at Watts,43.051701,-89.518005
+8692,Reetz at Flad,43.034398,-89.461524
+0087,N Broom at W Gorham,43.07415,-89.392328
+8712,Raymond at Leland,43.032073,-89.480102
+8714,Muir Field at Raymond,43.030187,-89.507933
+8723,Muir Field at Lindfield,43.026733,-89.505338
+8728,Starr Grass at Waldorf,43.036953,-89.523537
+F879,McKenna at Carnwood,43.020011,-89.502974
+8745,Raymond at Canterbury,43.031578,-89.501594
+8753,Reetz at Flad,43.034577,-89.461203
+8759,McKenna at Hammersley,43.038213,-89.499541
+8769,S Gammon at Gammon,43.044075,-89.503459
+F870,Hammersley at Whitcomb,43.039196,-89.464389
+0879,W Olin at S Park,43.053935,-89.396039
+8796,S Whitney at Bartlett,43.033596,-89.477328
+8830,Muir Field at Silverton,43.018414,-89.508659
+F855,McKenna at Lancaster,43.022357,-89.502484
+8866,Mid Town at Waldorf,43.031552,-89.526811
+8872,Raymond at Frisch,43.032003,-89.493957
+8893,Muir Field at Raymond,43.030429,-89.507674
+8921,Mid Town at Hawks Landing,43.031125,-89.54449
+8934,Muir Field at Carnwood,43.019606,-89.507118
+8937,Raymond at S Whitney,43.031707,-89.476438
+0894,E Rusk at N Rusk,43.039161,-89.383916
+F840,Hammersley at Frisch,43.039175,-89.493261
+8941,Muir Field at Lancaster,43.022382,-89.505333
+F894,Prairie at Lomax,43.034719,-89.488791
+0895,W Badger at Overpass,43.038311,-89.388642
+8953,Starr Grass at Waldorf,43.036738,-89.523352
+F856,Prairie at Jacobs,43.036858,-89.488719
+8958,Raymond at Canterbury,43.031784,-89.50205
+0896,S Park at Cedar,43.051598,-89.394942
+F885,McKenna at Pilgrim,43.026989,-89.496851
+9001,Cremer at Park And Ride,43.156799,-89.266988
+0904,Erin at S Park,43.059997,-89.401221
+0906,S Park at Buick,43.041491,-89.394255
+9100,Wright at Madison College,43.121241,-89.33054
+9101,Wright at Madison College,43.121026,-89.330256
+9116,Melody at Independence,43.130707,-89.31024
+9137,N Thompson at Mesta,43.109528,-89.296664
+0914,W Gorham at Wisconsin,43.077372,-89.388191
+9143,Portage at Derek,43.134409,-89.315498
+9146,Melody at Portage,43.130908,-89.31538
+0915,Fish Hatchery at Midland,43.054527,-89.398878
+F952,E Washington at Portage,43.123226,-89.315478
+9153,Hayes at Dawn,43.140977,-89.300548
+9164,O'Keeffe at Linnerud,43.173927,-89.245178
+9169,Airport at Terminal Door 6,43.137305,-89.346446
+9171,Wright at Straubel,43.117301,-89.330422
+9173,E Springs at High Crossing,43.131842,-89.29839
+9175,N Stoughton E at Orin,43.122866,-89.324571
+9176,Commercial at Redland,43.106779,-89.305228
+9177,O'Keeffe at New Town,43.163113,-89.261016
+F981,N Thompson at Kurt,43.10203,-89.292281
+9182,N Stoughton E at Orin,43.123063,-89.32488
+9204,N Thompson at Lien,43.120606,-89.298892
+9219,O'Keeffe at Summerfield,43.169044,-89.249752
+F925,E Washington at Schmedeman,43.115141,-89.326941
+F934,N Thompson at Kurt,43.102101,-89.291836
+9237,N Stoughton E at N Stoughton,43.121281,-89.324166
+9243,N Thompson at Commercial,43.106864,-89.300461
+9273,High Crossing at City View,43.13879,-89.288961
+9274,Shopko at Pick N Save,43.112872,-89.348004
+9276,N Thompson at Westwynn,43.118349,-89.297932
+9285,Anniversary at Hayes,43.13564,-89.300199
+9291,N Thompson at Wayridge,43.118993,-89.297622
+9300,Eastpark at U W Health,43.153791,-89.301341
+9306,N Stoughton E at N Stoughton,43.12147,-89.324647
+F917,Walbridge at Milwaukee,43.09948,-89.313021
+9322,E Washington at Wright,43.112942,-89.331095
+F923,N Thompson at Meadows,43.102419,-89.295985
+9338,Hayes at Forest Run,43.13813,-89.300343
+9339,E Washington at Rethke,43.109247,-89.335385
+9356,O'Keeffe at Brown Bear,43.165139,-89.255992
+F961,Commercial S at N Fair Oaks,43.106146,-89.330795
+9363,W Main at Thompson,43.176224,-89.255038
+9364,Wright at Kinsman,43.125413,-89.330324
+9370,N Thompson at Sycamore,43.11362,-89.296274
+9373,Bartillon at Kinsman,43.12547,-89.322961
+9388,Walsh at Nakoosa,43.109935,-89.310114
+9405,Wright at E Washington,43.113962,-89.330488
+0941,W Johnson at N Frances,43.071894,-89.395489
+9420,N Thompson at Golden Leaf,43.111937,-89.296351
+9432,Lien at Zeier,43.121163,-89.30046
+9437,O'Keeffe at Linnerud,43.174491,-89.244818
+F938,Anderson at Wright,43.120238,-89.329504
+9439,N Thompson at Jana,43.108626,-89.298765
+9442,Eagan at E Washington,43.126123,-89.310211
+9472,American at Eastpark,43.147351,-89.290045
+9479,Commercial at Nakoosa,43.108739,-89.314673
+9486,Eastpark at Biltmore,43.151801,-89.299058
+9490,O'Keeffe at New Town,43.163525,-89.261052
+9497,W Main at S Grand,43.175894,-89.263965
+9509,High Crossing at Cross Hill,43.142868,-89.28385
+F918,Wittwer at Walbridge,43.102496,-89.311386
+9528,O'Keeffe at Prairie,43.171594,-89.248151
+9531,Lien at Eagan,43.120882,-89.306933
+9535,S Grand at Blue Aster,43.171947,-89.264765
+9543,O'Keeffe at Wild Iris,43.15949,-89.263496
+9549,Hayes at Crosswalk,43.142305,-89.303289
+9552,E Washington at Rethke,43.109372,-89.335929
+F954,E Washington at Mendota,43.118826,-89.321909
+0956,Koster at Bram,43.045572,-89.388639
+9566,Independence at E Washington,43.128396,-89.308934
+F968,N Thompson at Swanton,43.103793,-89.300429
+F953,E Washington at Mendota,43.118942,-89.321031
+F957,E Washington at Portage,43.123735,-89.313995
+9591,Commercial at Redland,43.106564,-89.305043
+F904,N Thompson at Meadows,43.102625,-89.296084
+0961,N Broom at W Washington,43.071624,-89.389045
+F912,Wittwer at Milwaukee,43.098726,-89.310441
+9618,Independence at Melody,43.13025,-89.310241
+0962,Regent at N Park,43.067768,-89.40149
+9621,O'Keeffe at Brown Bear,43.164942,-89.255634
+9629,Nakoosa at Commercial,43.10838,-89.314377
+9633,Hayes at Portage,43.14254,-89.305995
+9636,N Thompson at Oak Valley,43.11593,-89.296467
+9642,Wright at Straubel,43.117167,-89.330718
+9645,N Thompson at Oak Valley,43.116154,-89.296343
+9651,Eastpark at U W Health,43.153513,-89.301094
+F962,Swanton at N Thompson,43.104151,-89.300749
+0967,W Washington at S Bedford,43.068957,-89.392096
+9670,Melody at Stuart,43.130763,-89.312835
+9701,High Crossing at E Springs,43.131985,-89.297648
+9715,Portage at Village,43.140501,-89.309248
+9717,Eastpark at Biltmore,43.152258,-89.298958
+9719,Eagan at Lien,43.121258,-89.307155
+9723,Portage at Rieder,43.135761,-89.31552
+9725,Kinsman at Wright,43.125574,-89.329781
+9733,Walsh at Commercial,43.106989,-89.309872
+F940,Commercial N at N Fair Oaks,43.107077,-89.33114
+9745,N Thompson at Golden Leaf,43.112151,-89.296054
+9747,Eastpark at E Terrace,43.146341,-89.291492
+F950,E Washington at Schmedeman,43.11533,-89.327423
+9753,Nakoosa at Walmart,43.109301,-89.312042
+9759,Eagan at East Towne,43.12545,-89.309199
+9770,N Thompson at Jana,43.108743,-89.299049
+9778,Walsh at Commercial,43.106855,-89.310181
+9782,O'Keeffe at Summerfield,43.168991,-89.25021
+9787,Kinsman at N Stoughton,43.125518,-89.32726
+9797,Kinsman at Bartillon,43.125507,-89.323307
+L981,Swanton at Easley,43.101386,-89.301421
+9812,Nakoosa at Walmart,43.109301,-89.312523
+9817,International at Darwin,43.129033,-89.348308
+9822,High Crossing at Cross Hill,43.142716,-89.284728
+9837,Shopko at Aberg,43.111179,-89.346808
+9844,N Thompson at Commercial,43.107079,-89.300732
+9862,O'Keeffe at Wild Iris,43.15975,-89.263965
+F980,Swanton at Easley,43.101251,-89.301718
+0989,W Washington at S Broom,43.07149,-89.388515
+9892,N Thompson at Mesta,43.109788,-89.296713
+9918,Kinsman at N Stoughton,43.125876,-89.325889
+9939,Portage at Tomscot,43.138392,-89.313094
+9951,N Thompson at Sycamore,43.114166,-89.295951
+9955,O'Keeffe at Prairie,43.171146,-89.248202
+9967,Walsh at Nakoosa,43.110051,-89.309817
+9996,Eagan at East Towne,43.124886,-89.309002
+C200,Regent at Capital High,43.068127,-89.439348
+C299,Regent at Capital High,43.067912,-89.439718
+E506,Delaware at N Sherman,43.14283,-89.363455
+1152,Packers at Aberg,43.11335,-89.35518
+E902,Golden Leaf at N Thompson,43.11199,-89.295832
+E904,Glacier Hill at Lien,43.120903,-89.291418
+E934,Glacier Hill at Valley Edge,43.114653,-89.290367
+E956,Glacier Hill at Southridge,43.117231,-89.289806
+E973,Lien at N Thompson,43.121312,-89.297952
+E978,Glacier Hill at Ridge Oak,43.119094,-89.291174
+E992,Golden Leaf at Eagle Crest,43.11255,-89.291841
+0120,S Park at Wingra,43.049369,-89.394301
+1216,Aberg at Packers,43.113744,-89.354797
+1290,Aberg at N Sherman,43.114339,-89.363604
+0139,N Randall at Regent,43.068038,-89.408834
+0145,W Johnson at State,43.07491,-89.389575
+1563,E Doty at M L K Junior,43.073404,-89.381687
+1679,Packers at Aberg,43.112633,-89.353662
+1731,E Wilson at S Butler,43.074745,-89.378044
+L319,Crested Owl at Meinders,43.035407,-89.295764
+0182,N Park at W Dayton,43.070687,-89.401094
+1841,Aberg at Packers,43.113323,-89.354835
+1868,Milwaukee at W Corporate,43.098332,-89.321914
+1905,Atwood at Lakeland,43.0916,-89.336001
+1964,Fordem at N Sherman,43.102646,-89.364145
+2218,Highland at University Bay,43.076096,-89.434301
+2257,Monroe at Spooner,43.065254,-89.416426
+2312,S Whitney at Tokay,43.053346,-89.47374
+F249,Eau Claire at Sheboygan,43.073225,-89.464039
+2467,University at University Bay,43.073204,-89.433449
+F293,Glenway at Monroe,43.053177,-89.435457
+2511,Mineral Point at S Whitney,43.060715,-89.471634
+2549,S Whitney at Tokay,43.053481,-89.473234
+0269,N Brooks at W Johnson,43.072388,-89.402303
+F264,Capital at Old Middleton,43.082627,-89.482206
+2778,Odana at S Whitney,43.050105,-89.474009
+F202,Eau Claire at Sheboygan,43.072625,-89.464236
+2844,Highland at University,43.071563,-89.428711
+2846,N Segoe at University,43.074973,-89.457164
+0286,Drake at S Mills,43.062173,-89.404417
+2951,Highland at Regent,43.068361,-89.428486
+2959,University Bay at Highland,43.075773,-89.43393
+F286,Capital at University,43.084232,-89.478047
+3142,Lacy at Brassica,43.011432,-89.373868
+3226,Rimrock at E Badger,43.038058,-89.37929
+3237,Novation at Ski,43.031543,-89.385389
+3305,Meinders at Crested Owl,43.035425,-89.296109
+3561,Novation at 89 Degree,43.032732,-89.382254
+3614,Highway M M at McCoy,43.023609,-89.38015
+3646,Novation at Rimrock,43.035856,-89.380278
+0365,S Randall at Mound,43.065164,-89.408847
+3791,Highway M M at McCoy,43.023815,-89.37999
+3910,Novation at 89 Degree,43.032446,-89.382908
+4132,Fitchrona at Nesbitt,43.007814,-89.484717
+4146,Fish Hatchery at High Ridge,43.021378,-89.417652
+4147,Anton at Williamsburg,43.023889,-89.47093
+4199,Jenewein at Red Arrow,43.028912,-89.456376
+4206,Red Arrow at Jenewein,43.029154,-89.456438
+0422,S Randall at Regent,43.067501,-89.409131
+4350,Chalet Gardens at Verona E,43.027863,-89.463642
+4385,E Cheryl at Fahey,43.004324,-89.412621
+4406,E Cheryl at Fahey,43.004691,-89.411733
+4432,Lovell at Allied,43.02695,-89.460089
+4478,Anton at Williamsburg,43.023867,-89.471098
+4529,Verona E at Williamsburg,43.023813,-89.467018
+4616,McKee at Fitchrona,43.015905,-89.481039
+4649,Fitchrona at Nesbitt,43.007846,-89.484408
+4713,Fitchrona at Crosswalk,43.009879,-89.483254
+4716,Red Arrow at Verona E,43.032233,-89.457797
+4764,E Cheryl at Research Park,43.005148,-89.425681
+4783,Cahill at Caddis,43.019364,-89.421167
+4820,Verona E at Williamsburg,43.023788,-89.467216
+4828,Fitchrona at Crosswalk,43.009825,-89.483599
+F449,Allied at Jenewein,43.029233,-89.459201
+4892,Fish Hatchery at Caddis,43.019445,-89.419428
+4930,S Fish Hatchery at E Cheryl,43.004817,-89.428025
+4967,Chalet Gardens at Verona E,43.027701,-89.463839
+4997,Fitchrona at King James,43.018934,-89.473727
+5120,Dryden at Londonderry,43.130033,-89.358945
+5166,Tennyson at Packers,43.134794,-89.355765
+5223,Northport at N Sherman,43.130375,-89.36317
+5230,Wheeler at N Sherman,43.147485,-89.363266
+5238,N Sherman at Tennyson,43.134601,-89.363537
+5253,N Sherman at Delaware,43.143044,-89.362911
+F578,Delaware at Dakota,43.143521,-89.36757
+0528,S Bassett at W Doty,43.068329,-89.388553
+F532,Northland at Mandrake,43.145226,-89.377689
+5381,N Sherman at Sunfield,43.13914,-89.363038
+F591,Wheeler at N Sherman,43.147253,-89.363105
+F596,Delaware at Esch,43.144946,-89.370225
+F517,Packers at Darwin,43.129198,-89.355103
+5461,N Sherman at Thackeray,43.132703,-89.363316
+5484,Wheeler at Golf View,43.147926,-89.367616
+F502,Northland at School,43.146203,-89.382595
+F512,Delaware at Tennessee,43.145305,-89.373908
+5545,Dryden at Londonderry,43.130185,-89.358734
+5601,Packers at Scott,43.132985,-89.35521
+5610,Wheeler at Comanche,43.148412,-89.372385
+F520,School at Fulton,43.143589,-89.383029
+5674,Delaware at Northland,43.145512,-89.375452
+5708,Delaware at Wheeler,43.147876,-89.375809
+0571,Drake at S Mills,43.061958,-89.404232
+5741,N Sherman at Northport,43.131046,-89.363354
+5753,N Sherman at Tennyson,43.135147,-89.363215
+5802,Tennyson at Whitman,43.134912,-89.359199
+F514,School at Havey,43.141172,-89.383092
+5818,N Sherman at Delaware,43.142364,-89.363233
+F588,Packers at Darwin,43.129064,-89.355387
+5884,N Sherman at Thackeray,43.132488,-89.363613
+5889,N Sherman at Lake View,43.137144,-89.363127
+5997,Tennyson at Whitman,43.134626,-89.358458
+0610,Monroe at N Randall,43.070052,-89.409352
+6139,Parmenter at Lisa,43.10923,-89.509735
+6238,Parmenter at Franklin,43.098234,-89.511635
+0638,S Randall at Drake,43.062192,-89.409144
+6413,Murphy at Eagle,43.098321,-89.527368
+6445,S Gammon at Memorial High,43.064263,-89.502396
+6460,Tree at S Gammon,43.065677,-89.503447
+6494,Parmenter at Lisa,43.108737,-89.510315
+6541,Odana at Medical,43.049934,-89.478167
+6554,University at Parmenter,43.096962,-89.511905
+6621,N Gammon at Sawmill,43.081426,-89.502144
+6670,Deming at Greenway,43.089771,-89.527269
+6728,Odana at Medical,43.050175,-89.478279
+6761,N Gammon at Middleton,43.084673,-89.502123
+6771,Odana at Tokay,43.051177,-89.481155
+6778,Tree at S Westfield,43.064036,-89.507518
+6793,Mineral Point at S Gammon,43.06053,-89.503219
+0682,Monroe at S Breese,43.067295,-89.413747
+6833,University at Cayuga,43.096657,-89.513671
+6959,S Gammon at Mineral Point,43.061103,-89.502479
+6962,S Westfield at Mineral Point,43.061261,-89.50791
+6990,N Gammon at Middleton,43.084441,-89.502326
+7113,Dempsey at Overpass,43.095355,-89.316152
+7201,Milwaukee at W Corporate,43.098143,-89.321161
+7241,Cottage Grove at McClellan,43.084673,-89.270337
+7245,Cottage Grove at Acewood,43.084044,-89.302551
+7370,Wyalusing at Dominion,43.090965,-89.261371
+7422,Cottage Grove at S Sprecher,43.084992,-89.267163
+7431,Wyalusing at Amnicon,43.089586,-89.261115
+7439,Dempsey at Hynek,43.092741,-89.31623
+0745,S Park at Wingra,43.049476,-89.39382
+7460,Cottage Grove at Dempsey,43.083985,-89.316787
+7464,Buckeye at Camden,43.073712,-89.312161
+7523,Dempsey at Dennett,43.090565,-89.316245
+7562,Sprecher New at Cottage Grove,43.08583,-89.264676
+7571,Cottage Grove at McLean,43.084614,-89.273461
+0763,W Badger at N Rusk,43.038838,-89.384348
+7657,Dempsey at Milwaukee,43.09789,-89.317395
+7675,Cottage Grove at Atwood,43.083544,-89.324566
+7684,Cottage Grove at McLean,43.084812,-89.274213
+7848,Pflaum at Advance,43.062495,-89.302996
+0790,W Washington at N Fairchild,43.073128,-89.386588
+7921,Cottage Grove at North Star,43.084522,-89.279264
+F731,North Star at Orion,43.087951,-89.279047
+0794,N Randall at Monroe,43.069891,-89.409155
+7946,Wyalusing at Amnicon,43.08922,-89.261696
+7970,Cottage Grove at McClellan,43.08488,-89.27109
+0806,S Randall at Mound,43.065441,-89.409131
+8124,S Gammon at Watts,43.04993,-89.503317
+8139,Maple Grove at McKee,43.016084,-89.498702
+8146,Schroeder at Chapel Hill,43.046381,-89.494219
+8152,Schroeder at Saybrook,43.046468,-89.48025
+F863,Manchester at Hartford,43.014916,-89.490634
+8182,Schroeder at Struck,43.04637,-89.496909
+8184,Maple Grove at Nesbitt,43.002181,-89.499266
+8218,Maple Grove at McKee,43.015403,-89.49901
+F829,Prairie at Raymond,43.032212,-89.488615
+F853,Prairie at Jacobs,43.036581,-89.488434
+F821,Raymond at Reetz,43.031202,-89.461658
+8333,Reetz at Marvin,43.036296,-89.460908
+8371,McKee at Maple Grove,43.015574,-89.498479
+8378,Schroeder at Forward,43.046429,-89.488024
+8463,Maple Grove at Nesbitt,43.002011,-89.49902
+F871,Hammersley at McKenna,43.038715,-89.499356
+0857,N Randall at W Dayton,43.071359,-89.408871
+F880,Manchester at Thornebury,43.012615,-89.491002
+F844,Manchester at McKee,43.015381,-89.490943
+8709,Raymond at Frisch,43.031664,-89.493204
+8718,Maple Grove at Manchester,43.007123,-89.499136
+F838,Hammersley at Prairie,43.03924,-89.488869
+8763,McKee at Tanglewood,43.015588,-89.50493
+8779,Raymond at McKenna,43.031626,-89.49656
+8802,Maple Grove at Westin,43.012324,-89.49908
+8816,Schroeder at Highway Ramp,43.046497,-89.475882
+F839,Hammersley at Saalsaa,43.038886,-89.496543
+F847,Flagstone at S Pleasant View,43.024842,-89.532821
+8862,Schroeder at White Oaks,43.046458,-89.484112
+8868,McKee at Maple Grove,43.015914,-89.499232
+F815,Hammersley at Frisch,43.038969,-89.492533
+F819,Prairie at Lomax,43.034522,-89.488507
+8928,Reetz at Marvin,43.036493,-89.461216
+9115,Eastpark at Dreamer,43.147879,-89.299152
+9121,N Bristol at Angell,43.184025,-89.213325
+9138,High Crossing at City View,43.138916,-89.289431
+9157,W Main at Flint,43.183158,-89.219931
+9178,W Main at N Bird,43.181853,-89.226945
+9188,Windsor at Broadway,43.187533,-89.241903
+9202,W Main at N Walker,43.179056,-89.237017
+9209,Independence at E Washington,43.12844,-89.308613
+9214,Anniversary at Independence,43.134682,-89.30927
+9235,E Main at Dewey,43.182227,-89.208447
+9236,Windsor at N Bird,43.187574,-89.226817
+9256,N Grand at W Main,43.176782,-89.265076
+9260,High Crossing at Crossroads,43.136294,-89.291215
+9272,Tower at N Bristol,43.198851,-89.211239
+9330,Eastpark at American,43.147754,-89.290526
+9347,Darwin at Packers,43.128813,-89.354869
+9352,N Bird at Vandenburg,43.193143,-89.226022
+9360,Windsor at Eddington,43.187512,-89.24628
+9365,W Main at Clarmar,43.177781,-89.241224
+9387,Eagan at E Washington,43.126346,-89.310099
+9403,W Main at S Bird,43.181842,-89.226141
+9410,S Grand at Prairie Lakes,43.165783,-89.269427
+0947,S Randall at Drake,43.062326,-89.408848
+9487,Market at Cannery,43.182777,-89.210968
+9492,Windsor at Lois,43.187562,-89.236685
+9506,Windsor at N Thompson,43.187309,-89.25485
+9521,Eastpark at W Terrace,43.144043,-89.29492
+9536,Tower at Fitness,43.195912,-89.221637
+9540,Grove at E Main,43.18063,-89.206498
+9547,N Bristol at Goodland,43.192197,-89.211099
+9577,High Crossing at Crossroads,43.13633,-89.290721
+9582,N Bird at Windsor,43.18718,-89.226435
+9584,Eastpark at W Terrace,43.144437,-89.2955
+9586,N Grand at Windsor,43.18664,-89.264657
+9637,S Grand at Prairie Lakes,43.166346,-89.268709
+9648,Tower at Grandview,43.197002,-89.214325
+9650,W Main at Ruby,43.180098,-89.233256
+9689,E Main at S Bristol,43.183184,-89.213278
+9690,Darwin at Packers,43.129037,-89.355054
+F993,N Fair Oaks at Lexington,43.110389,-89.330394
+9709,N Bristol at Windsor,43.188018,-89.212423
+9718,N Bird at Summit,43.190878,-89.226165
+9721,W Main at Ruby,43.180106,-89.232452
+9728,N Grand at Blue Heron,43.180964,-89.264942
+0977,Regent at S Randall,43.067653,-89.4086
+F902,N Fair Oaks at Lexington,43.110801,-89.330678
+9833,N Bristol at Klubertanz,43.195832,-89.210766
+9870,Anniversary at Forest Run,43.135329,-89.302523
+9879,W Main at S Walker,43.179054,-89.236213
+9906,Eastpark at E Terrace,43.145876,-89.291963
+9914,Darwin at International,43.128899,-89.349012
+9924,N Bird at Tower,43.196465,-89.225864
+9931,Park at Angell Park,43.180225,-89.21105
+9936,Eastpark at Dreamer,43.147181,-89.299165
+9938,Independence at Declaration,43.132684,-89.307927
+9946,W Main at Clarmar,43.177791,-89.242028
+9952,S Grand at Blue Aster,43.17141,-89.265385
+L709,Dominion at S Sprecher,43.091492,-89.267
+6209,Allen at Lake,43.10294,-89.486027
+6629,Century at Park,43.108707,-89.501558
+6986,University at Capital,43.084035,-89.477503
+F963,Wright at Anderson,43.11988,-89.330295
+2600,University Row at U W Health,43.076213,-89.469497
+1129,Sherman at Marston,43.092783,-89.371797
+W272,Shorewood at Oxford,43.081645,-89.444487
+1289,Williamson at S Baldwin,43.084614,-89.362197
+1498,W Wilson at M L K Junior,43.072428,-89.3817
+1606,S Baldwin at Williamson,43.084238,-89.362395
+M839,Cosgrove at Dallas,43.004019,-89.494348
+M888,Tiller at Cosgrove,43.008256,-89.489986
+M899,Cosgrove at Tonkinese,43.004898,-89.491747
+2144,Odana at Anthony,43.05074,-89.447304
+2234,University at Craig,43.079238,-89.471956
+2364,Mineral Point at Racine,43.061039,-89.465871
+2504,S Segoe at Crosswalk,43.065233,-89.454567
+2523,Mineral Point at Westmorland,43.060633,-89.443321
+2635,S Segoe at Regent,43.068742,-89.454235
+2652,Regent at N Midvale,43.068385,-89.451618
+2671,Old Middleton at N Rosa,43.074939,-89.478064
+2713,S Segoe at Crosswalk,43.06526,-89.454073
+2810,Tokay at S Segoe,43.053806,-89.46483
+2816,Odana at Frederick,43.05108,-89.4447
+2869,University at Craig,43.079543,-89.471746
+3623,Marsh at Kipp,43.043509,-89.286605
+0432,University at N Mills,43.073445,-89.404451
+5429,Northport at School,43.137769,-89.382797
+6263,S High Point at Watts,43.052248,-89.517697
+6366,Old Sauk at N Westfield,43.075281,-89.507878
+6596,S High Point at Mineral Point,43.060207,-89.517659
+6871,Old Sauk at Widgeon,43.074991,-89.512346
+7139,Wyalusing at S Sprecher,43.087829,-89.266317
+0716,University at N Orchard,43.073454,-89.407747
+7253,Pflaum at Turner,43.062093,-89.313735
+7273,E Buckeye at Kings Mill,43.074547,-89.277816
+7294,Wyalusing at Milwaukee,43.099489,-89.261635
+7496,Pflaum at Turner,43.062299,-89.314487
+7556,Kings Mill at Cottontail,43.076623,-89.276774
+7720,Wyalusing at S Sprecher,43.088098,-89.266279
+7772,Milwaukee at Wyalusing,43.099919,-89.262029
+F837,Manchester at Westin,43.010895,-89.492172
+8445,Raymond at Cameron,43.03174,-89.482742
+8515,Hammersley at Reetz,43.038946,-89.4607
+8532,Raymond at Cameron,43.032098,-89.483483
+8639,Schroeder at Struck,43.046156,-89.496724
+8689,S Whitney at Tolman,43.037141,-89.477368
+F877,Manchester at Thornebury,43.01283,-89.490706
+8810,S Whitney at Tolman,43.036595,-89.477885
+9080,Hanson at Metro Garage,43.153803,-89.315591
+9081,Hanson at Metro Garage,43.15358,-89.316061
+10069,East Campus,43.073363,-89.399414
+10070,East Campus,43.071949,-89.398686
+10071,East Campus,43.073354,-89.398846
+10077,State,43.07491,-89.391488
+10078,State,43.074668,-89.389575
+10081,Capitol Square,43.075741,-89.385056
+10082,Capitol Square,43.073547,-89.383415
+10085,Blair,43.078354,-89.379017
+10086,Blair,43.078407,-89.378795
+10089,Paterson,43.08213,-89.373681
+10090,Paterson,43.082192,-89.373447
+10093,Baldwin,43.087159,-89.366541
+10094,Baldwin,43.087221,-89.366319
+10097,First Street,43.092044,-89.359622
+10098,First Street,43.092133,-89.359363
+10101,Fourth Street,43.096204,-89.354061
+10102,Fourth Street,43.096285,-89.353827
+10105,Milwaukee-North,43.10015,-89.348945
+10106,Milwaukee-North,43.100597,-89.348512
+10109,Marquette,43.104112,-89.342259
+10110,Marquette,43.104166,-89.342036
+0200,University at East Campus,43.073381,-89.400056
+10061,Orchard,43.073454,-89.407179
+10062,Orchard,43.07212,-89.407043
+0201,W Johnson at East Campus,43.071939,-89.398032
+10057,University Bay,43.073472,-89.433609
+10058,University Bay,43.073365,-89.43335
+10053,Shorewood,43.075262,-89.443473
+10054,Shorewood,43.075235,-89.443263
+10049,Midvale,43.075359,-89.451633
+10050,Midvale,43.075269,-89.451411
+0389,State at W Johnson,43.074668,-89.389723
+10045,Segoe,43.073119,-89.456879
+10046,Segoe,43.073289,-89.456719
+10041,Eau Claire,43.072965,-89.463854
+10042,Eau Claire,43.072983,-89.463644
+10037,Regent-Whitney,43.067735,-89.468442
+10038,Regent-Whitney,43.067896,-89.468393
+10033,Whitney-Mineral Point,43.060885,-89.47261
+10034,Whitney-Mineral Point,43.060867,-89.472363
+10029,Rosa,43.060856,-89.478818
+10030,Rosa,43.060829,-89.478596
+10025,Island,43.060816,-89.486878
+10026,Island,43.060789,-89.486655
+10021,Grand Canyon,43.060784,-89.496924
+10022,Grand Canyon,43.060748,-89.496702
+10017,Westfield,43.06067,-89.507625
+10018,Westfield,43.060634,-89.507415
+10013,High Point,43.060556,-89.517326
+10014,High Point,43.060538,-89.517104
+10001,Junction,43.057846,-89.528334
+10004,Junction at Park And Ride,43.057836,-89.528334
+0626,University at N Bassett,43.073282,-89.394649
+6410,N High Point at Sauk Creek,43.072094,-89.520317
+0887,W Johnson at N Orchard,43.072254,-89.407772
+10113,Melvin-Rethke,43.10897,-89.336152
+10114,Melvin-Rethke,43.109077,-89.335917
+10117,Wright-Fair Oaks,43.11295,-89.330786
+10118,Wright-Fair Oaks,43.113013,-89.330576
+10121,Anderson-Wright,43.120247,-89.32985
+10122,Anderson-Wright,43.120033,-89.330072
+10125,Mendota,43.119077,-89.321525
+10126,Mendota,43.118906,-89.321093
+10129,Thierer-Portage,43.123638,-89.314909
+10130,Thierer-Portage,43.1237,-89.314057
+10133,Independence,43.128002,-89.308663
+10134,Independence,43.127992,-89.307836
+10137,East Springs,43.131489,-89.303617
+10138,East Springs,43.131399,-89.302913
+9579,Cremer at O'Keeffe,43.156978,-89.267148
+3172,Femrite at Shato,43.050839,-89.313567
+3183,Monona at E Broadway,43.048073,-89.324604
+3198,Dean at Winnequah,43.069506,-89.338238
+3345,E Broadway at Ahuska Park,43.047748,-89.321482
+3348,Nichols at Shore Acres,43.062375,-89.331458
+3357,Copps at E Broadway,43.048804,-89.310436
+3385,Nichols at McKenna,43.062217,-89.335618
+3488,Edna Taylor at Femrite,43.05112,-89.317035
+3542,Pheasant Hill at Owen,43.056806,-89.33091
+3624,Nichols at Winnequah,43.065141,-89.344292
+3627,Femrite at Shato,43.050723,-89.314123
+3720,E Broadway at Ahuska Park,43.04808,-89.321704
+3781,Femrite at Edna Taylor,43.051209,-89.316578
+3814,Owen at Pheasant Hill,43.056761,-89.330577
+3816,Copps at E Broadway,43.049002,-89.310646
+3835,Dean at Winnequah,43.069291,-89.338053
+3845,E Broadway at Monona,43.04758,-89.324333
+3854,Dean at Shore Acres,43.069412,-89.33177
+3922,W Broadway at Monona,43.047894,-89.32511
+3991,Nichols at Shore Acres,43.06216,-89.331274
+7172,Monona at Femrite,43.053239,-89.325436
+7177,Monona at Owen,43.057268,-89.325554
+7207,Monona at Pflaum,43.062443,-89.326015
+7237,Monona at Femrite,43.053391,-89.325152
+7238,Monona at Pflaum,43.061897,-89.326325
+7270,Monona at Owen,43.056722,-89.325813
+7274,Owen at Monona,43.057108,-89.326973
+7451,Monona at Dean,43.069506,-89.325931
+7603,Pflaum at Monona,43.062013,-89.32567
+7768,Monona at Coldspring,43.07298,-89.326186
+7870,Monona at Dean,43.069346,-89.326228
+7937,Monona at Coldspring,43.073141,-89.325889
+1791,N Blair at E Johnson,43.080942,-89.381707
+2094,Walnut at Observatory,43.076141,-89.425239
+0025,Langdon at N Lake,43.075691,-89.396944
+2502,Walnut at Gifford Pinchot,43.074314,-89.425252
+0045,Langdon at Wisconsin,43.078482,-89.38982
+0454,N Breese at Hoyt,43.070438,-89.414055
+0542,N Breese at University,43.073132,-89.414055
+0558,N Bedford at W Mifflin,43.0697,-89.393799
+0056,Observatory at Liz Waters,43.07665,-89.407141
+0068,N Lake at W Johnson,43.072172,-89.397625
+0795,N Park at State,43.074599,-89.400488
+0853,W Dayton at N Frances,43.070757,-89.395527
+0089,Langdon at N Henry,43.076844,-89.392142
+0096,Wisconsin at W Gorham,43.077515,-89.388055
+0099,Langdon at N Park,43.075745,-89.400179
+0538,N Park at University,43.072701,-89.400846
+0341,N Park at W Johnson,43.072352,-89.400476
+0141,W Washington at S Fairchild,43.073074,-89.386255
+1110,E Dayton at Wisconsin,43.076428,-89.38592
+SoTP,South Transfer,43.038957,-89.394651
+10012,High Point,43.060547,-89.517215
+10016,Westfield,43.060652,-89.50752
+10020,Grand Canyon,43.060766,-89.496813
+10024,Island,43.060803,-89.486767
+10028,Rosa,43.060843,-89.478707
+10032,Whitney-Mineral Point,43.060876,-89.472487
+10036,Regent-Whitney,43.067816,-89.468418
+10040,Eau Claire,43.072974,-89.463749
+10048,Midvale,43.075314,-89.451522
+10052,Shorewood,43.075249,-89.443368
+10056,University Bay,43.073419,-89.43348
+10084,Blair,43.078381,-89.378906
+10088,Paterson,43.082161,-89.373564
+10092,Baldwin,43.08719,-89.36643
+10096,First Street,43.092089,-89.359493
+10100,Fourth Street,43.096245,-89.353944
+10108,Marquette,43.104139,-89.342148
+10112,Melvin-Rethke,43.109024,-89.336035
+10116,Wright-Fair Oaks,43.112982,-89.330681

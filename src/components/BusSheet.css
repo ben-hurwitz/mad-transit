@@ -1,0 +1,91 @@
+/* src/components/BusSheet.css */
+.bus-sheet {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background: rgba(26,26,26,0.97);
+    color: #fff8e3;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0 -6px 16px rgba(0,0,0,0.6);
+    border: 1px solid rgba(143,143,143,1);
+    max-height: 70vh;
+    overflow-y: auto;
+    transition: bottom 0.35s ease;
+    z-index: 1000;
+  }
+  .bus-sheet.open { bottom: 0; }
+  
+  .sheet-header { padding: 8px 16px 0; }
+  .sheet-handle {
+    width: 60px; height: 5px; border-radius: 3px;
+    background: #666; opacity: 0.6;
+    margin: 0 auto 8px;
+  }
+  .sheet-header-row {
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .stop-info h3 { margin: 0; font-weight: 600; }
+  .stop-info p { margin: 0; opacity: 0.8; font-size: 0.9rem; }
+  .actions button {
+    margin-left: 8px; border: none; background: transparent;
+    color: #fff8e3; font-size: 20px; cursor: pointer;
+  }
+  .sheet-content { padding: 8px 16px 20px; }
+  
+  .bus-card {
+    background: #1a1a1a;
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  }
+  .bus-card-top {
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .left { display: flex; align-items: center; gap: 10px; }
+  .route-badge {
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+  }
+  .destination {
+    font-weight: 700;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .countdown { font-weight: 700; font-size: 15px; }
+  
+  .bus-card-bottom {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pills { display: flex; gap: 6px; }
+  .pill {
+    background: #242424;
+    border-radius: 7px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .occupancy { display: flex; align-items: center; gap: 6px; }
+  .occ-blocks { display: flex; gap: 3px; }
+  .occ-block {
+    width: 10px; height: 16px; border-radius: 4px;
+    border: 1px solid #fff8e3;
+  }
+  .occ-block.filled { background: #fff8e3; }
+  .occ-block.empty { background: #2e2e2e; opacity: 0.7; }
+  
+  .loading, .empty {
+    text-align: center; padding: 20px; opacity: 0.8;
+  }
+  

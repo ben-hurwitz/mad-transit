@@ -1,0 +1,252 @@
+/* Header */
+.home-header {
+    padding: 5px 0px 0;
+    width: 98vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    background: linear-gradient(180deg, #94A6B9 0%, rgba(148, 166, 185, 0.00) 100%);
+    backdrop-filter: blur(2px); 
+    -webkit-backdrop-filter: blur(2px); /* Safari support */
+  
+    /*Add to other headers*/
+    margin: 0 5px;
+    justify-self: center;
+
+    display: flex;
+  flex-direction: column;  /* stack logo/time and nav */
+  align-items: stretch;    /* header children take full width */
+  gap: 1px;
+
+  }
+
+  .home-header-under-fixed{
+    width: 100%;
+    height: 77px;
+    position: fixed;
+    transform: translateY(-5px);
+    /*background: linear-gradient(180deg, rgba(255, 255, 255, 1)  10%, rgba(255, 255, 255, 0) 100%);*/
+    background-color: transparent;
+    backdrop-filter: blur(8px); 
+    z-index: 1000;
+  }
+  
+  .home-header-under {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .home-header-top {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+  }
+  
+  .home-header-top-left{
+    display: flex;
+    gap: 5px;
+  }
+  
+  .home-search-box{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    border-radius: 19px;
+    border: 0.4px solid var(--NavButton, #E9E9E9);
+    background: #FFF;
+  
+    /* NewNav */
+    padding: 0px 5px;
+    align-items: center;
+    background: rgba(65, 65, 65, 0.18);
+    border-radius: 19px;
+    border: 0.4px solid rgba(233, 233, 233, 0.25);
+
+    /* NewNav */
+    box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
+  }
+  
+  .home-search-box:hover {
+    background: rgba(201, 201, 201, 0.2);
+    border: 0.4px solid var(--NavButton, #949494);
+  }
+  
+  .new-stop-logo {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /*mtv3 colorblock logo*/
+  .new-stop-logo-circle {
+    width: 30px;
+    height: 30px;
+    background-image: url(./assets/mtv3colorblocklogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 19px;
+  }
+  
+  .new-stop-search {
+    flex: 1;
+    height: 100%;
+    border: none;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.2s;
+    padding: 5px;
+    background-color: transparent;
+    
+  }
+  
+  
+  .home-search-text {
+    color: white;
+    font-family: "Mona Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 457;
+    line-height: normal;
+  
+    /*for now, turn animation off
+    overflow: hidden; /* Ensures the content is not revealed until the animation 
+    white-space: nowrap; /* Keeps the content on a single line 
+    animation: 
+      typing 2s steps(70, end)
+    */
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 85% }
+  }
+  
+  .home-notif-btn,
+  .home-menu-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 19px;
+    background: rgba(65, 65, 65, 0.18);
+    border: 0.4px solid rgba(233, 233, 233, 0.25);
+
+    /* NewNav */
+    box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
+    padding: 0px 5px;
+    align-items: center;
+    
+  }
+  
+  .new-stop-notif-btn:hover,
+  .new-stop-menu-btn:hover{
+    background-color: #f5f5f5;
+    border-color: #ccc;
+  }
+  
+  
+  .home-notif-btn{
+    background-image: url(./assets/mtv3detouricon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .home-menu-btn{
+    background-image: url(./assets/mtv3hamburgericonwhite.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .new-stop-notif-badge {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background: #FF0000;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 6px;
+    font-size: 11px;
+    font-weight: 600;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: .9;
+  }
+  
+  .home-nav {
+    display: flex;
+    gap: 1vw;
+    overflow-x: auto;
+  
+    /*change on other headers*/
+    height: 30px;
+  
+    max-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12.5px;
+    align-items: center;
+    color: white;
+    background: rgba(65, 65, 65, 0.18);
+    border: 0.4px solid rgba(233, 233, 233, 0.25);
+
+    /* NewNav */
+    box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
+  }
+  
+  .home-nav-btn {
+    padding: 0px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 12.5px;
+    transition: all 0.2s;
+    width: 24.8%;
+    height: 100%;
+    border: none;
+  
+    color: #FFF;
+    text-align: center;
+    font-family: "Mona Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 457;
+    line-height: normal;
+  }
+  
+  
+  .home-nav-btn:hover {
+    border-radius: 12.5px;
+    border: 0.4px solid var(--NavButton, #6f6f6f);
+    box-shadow: 0 1px 1.3px 0 #6f6f6f inset;
+  }
+  
+  .nav-btn-active {
+    border-radius: 12.5px;
+    border: 0.4px solid var(--NavButton, #E9E9E9);
+    background: #F6F6F6;
+    box-shadow: 0 1px 1.3px 0 rgba(0, 0, 0, 0.25) inset;
+  }
+  
+  .home-divider{
+    height: 50%;
+    width: .8px;
+    background-color: #949494;
+  }
