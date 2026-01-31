@@ -3,6 +3,39 @@ home-hero{
     color: red;
 }
 
+body{
+  background-color: #94A6B9;
+  overflow: hidden;
+}
+
+.page-vignette{
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  background-color: #025BBB;
+  bottom: 0;
+  z-index: 0;
+  background: linear-gradient(180deg, rgba(183, 203, 214, 0.00) 0%, #000 85.1%);
+  backdrop-filter: blur(10px);
+}
+
+.home-page-home-phone {
+  width: 100vw;
+  max-width: none;
+  margin: 0;
+  background-image: url(./assets/mtv3homebackgroundDAY.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 100vh;
+}
+
 .home-hero-title{
     color: #FFF;
     text-align: center;
@@ -36,6 +69,7 @@ home-hero{
     box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
     backdrop-filter: blur(2px);
     align-items: center;
+    margin-left: 3vw;
     transform: translate(8px,10px);
   }
   
@@ -46,6 +80,7 @@ home-hero{
     display: flex;
     flex-direction: column;
     gap: 6px;
+    margin: 0 3vw;
   }
 
   .suggested-stop-card{
@@ -217,10 +252,11 @@ home-hero{
     backdrop-filter: blur(2px);
     align-items: center;
     transform: translate(8px,10px);
+    margin-left: 3vw;
   }
   
   .destination-bar{
-    width: 100%;
+    width: 94vw;
     height: 40px;
     border-radius: 19px;
     border: 0.4px solid rgba(233, 233, 233, 0.25);
@@ -234,6 +270,7 @@ home-hero{
     font-style: normal;
     font-weight: 457;
     line-height: 40px;
+    margin: 0 3vw;
   }
 
   .dest-content{
@@ -251,13 +288,30 @@ home-hero{
     backdrop-filter: blur(2px);
     align-items: center;
     transform: translate(8px,10px);
+    margin-left: 3vw;
+  }
+
+  .home-card-title {
+    margin:0;
+    color: white;
+    font-family: "Mona Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -1%;
+    text-align: left;
+    width: 100%;
+    margin: 0 15px;
+    align-self: center;
   }
 
   .options-grid{
-    width: 100%;
+    width: 94vw;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin: 0 3vw;
   }
 
   .options-grid-top{
@@ -279,11 +333,14 @@ home-hero{
     background: rgba(65, 65, 65, 0.18);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: space-around;
   }
 
   @media screen and (min-width: 800px) {
     .options-grid{
-        width: 100%;
+        width: 94vw;
+        margin: 0 3vw;
         display: flex;
         flex-direction: row;
       }

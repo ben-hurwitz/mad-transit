@@ -230,10 +230,9 @@ function extractDirectionalDescription(description) {
   return result;
 }
 
-
-
 // Fetch complete stop details from YOUR backend (proxying wisc.edu)
 async function fetchStopDetails(stopId) {
+  
   try {
     const res = await fetch(`${API_BASE_URL}/api/bus-stops/${stopId}`);
     if (!res.ok) {
@@ -243,9 +242,11 @@ async function fetchStopDetails(stopId) {
 
     const json = await res.json();
 
-    // Parse routes (can be comma-separated string or single route)
-    const routes = json.routes
-      ? json.routes.split(",").map((r) => r.trim()).filter((r) => r)
+    const res1 = await fetch(`https://badger-transit-dawn-darkness-55.fly.dev/api/predictions/${stopId}`);
+    if (!res.ok) return [];
+    const json1 = await res1.json();
+    const routes = json1.busyness?.current?.by_route 
+      ? Object.keys(json1.busyness.current.by_route).sort() 
       : [];
 
     return {
@@ -265,46 +266,38 @@ function isBRTstop(stopId){
 }
 
 const ROUTE_COLORS = {
-  // Bus Rapid Transit
   A: "#FF0000",
   A1: "#FF0000",
   A2: "#FF0000",
   B: "#84BC00",
   F: "#2272B5",
-
-  // Campus Buses
   80: "#FF7300",
-  81: "#FF7300",
-  82: "#FF7300",
-  84: "#FF7300",
-
-  // Standard Service
-  C: "#333366",
+  81: "#00B7C8",
+  82: "#BC009D",
+  84: "#C1C800",
   D: "#333366",
   D1: "#333366",
   D2: "#333366",
-  E: "#C1C800",
-  G: "#00B7C8",
-  H: "#C1C800",
-  J: "#C1C800",
-  L: "#9269EB",
-  O: "#BC009D",
-  P: "#C1C800",
+  C: "#333366",
+  C1: "#333366",
+  C2: "#333366",
+  E: "#2272B5",
+  G: "#2272B5",
+  H: "#2272B5",
+  J: "#2272B5",
+  W: "#2272B5",
+  28: "#2272B5",
+  38: "#2272B5",
+  L: "#46AAD1",
+  O: "#46AAD1",
+  P: "#46AAD1",
   R: "#46AAD1",
   R1: "#46AAD1",
   R2: "#46AAD1",
-  S: "#C1C800",
-  W: "#9269EB",
-  28: "#2272B5",
-  38: "#2272B5",
-  55: "#FFA600",
-  60: "#9269EB",
-  61: "#9269EB",
-  62: "#FFA600",
-  63: "#9269EB",
-  64: "#FF7300",
+  S: "#46AAD1",
+  55: "#46AAD1",
+  60: "#46AAD1",
   65: "#46AAD1",
-  75: "#9269EB",
 };
 
 function getRouteColor(code) {
@@ -482,7 +475,7 @@ function HomePage() {
 
   return (
     <main className="home-root">
-      <div className="home-phone">
+      <div className="home-page-home-phone">
         {redirectInfo && (
           <div 
             className="smartlaunch-toast" 
@@ -543,11 +536,11 @@ function HomePage() {
             <button className="home-nav-btn" onClick={() => navigate("/recent")}>
               Recent
             </button>
-            <div className="home-divider"></div>
+            <div className="divider"></div>
             <button className="home-nav-btn" onClick={() => navigate("/map")}>
               Map
             </button>
-            <div className="home-divider"></div>
+            <div className="divider"></div>
             <button className="home-nav-btn" onClick={() => navigate("/help")}>
               Help
             </button>
@@ -557,7 +550,8 @@ function HomePage() {
         
         <div className="home-header-under-fixed"></div>
         <div className="home-header-under"></div>
-
+        <div className="page-vignette"></div>
+        
         {/* Title */}
         <section className="home-hero" aria-labelledby="hero-title">
           <h1 id="hero-title" className="home-hero-title">

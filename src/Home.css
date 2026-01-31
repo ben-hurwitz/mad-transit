@@ -8,9 +8,6 @@
   --text-muted: #4b5563;
 }
 
-body{
-  background-color: #94A6B9;
-}
 
 .home-root {
   min-height: 100vh;
@@ -212,16 +209,7 @@ body{
   background-position: center;
 }
 
-.home-card-title {
-  margin:0;
-  color: #000;
-  font-family: "Mona Sans";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 100%;
-  letter-spacing: -1%;
-}
+
 
 
 /* Notice panels */
