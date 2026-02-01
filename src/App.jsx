@@ -221,6 +221,20 @@ function extractDirectionalDescription(description) {
   // Capitalize first letter
   result = result.charAt(0).toUpperCase() + result.slice(1);
 
+  if(result.charAt(0) == "E" || result.charAt(0) == "W"){
+    if(result.charAt(0) == "E"){
+      result = result.substring(0,9);
+    }
+    else{
+      result = result.substring(0,9);
+    }
+  }
+
+  if(result.charAt(0) == "N" || result.charAt(0) == "S"){
+    result = result.substring(0,10);
+  }
+  
+
   // Truncate to 50 characters
   const MAX_LEN = 1000;
   if (result.length > MAX_LEN) {
@@ -604,7 +618,7 @@ function HomePage() {
                       <div className="suggested-stop-card-right-left-top">
                         <div className="suggested-stop-card-info">
                           <div className="suggested-stop-card-info-top">
-                          <div className="suggested-stop-card-info-stop-name"><span className="suggest-stop-id">{stop.stop_id}</span>{stop.stop_name}</div>
+                          <div className="suggested-stop-card-info-stop-name"><span className="suggest-stop-id">{stop.stop_id}</span>{stop.description} <span className="visit-count">{getVisitCount(stop.stop_id)} visits</span></div>
                             <div className="suggested-stop-card-info-route-chips">
                             {stop.routes && stop.routes.length > 0 && (
                               <div className="suggested-stop-routes">
@@ -634,7 +648,7 @@ function HomePage() {
                         <div className="suggested-stop-card-divider"></div>
                         {stop.description && (
                           <div className="suggested-stop-card-info-description">
-                            {stop.description}
+                            {stop.stop_name}
                           </div>
                         )}
                       </div>
@@ -674,21 +688,21 @@ function HomePage() {
           <div className="options-grid-top">
             <Link to="/map" className="options-btn">
               <div className="home-card-icon home-card-icon-map" aria-hidden="true" />
-              <p className="home-card-title">Select a stop from MapView</p>
+              <p className="home-card-title">Select a stop from Map</p>
             </Link>
             <Link to="/saved" className="options-btn">
             <div className="home-card-icon home-card-icon-saved" aria-hidden="true" />
-            <p className="home-card-title">View your saved stops and groups</p>
+            <p className="home-card-title">View saved stops and groups</p>
             </Link>
           </div>
           <div className="options-grid-bottom">
             <Link to="/recent" className="options-btn">
               <div className="home-card-icon home-card-icon-star" aria-hidden="true" />
-              <p className="home-card-title">View your recently visited stops</p>
+              <p className="home-card-title">View recently visited stops</p>
             </Link>
             <Link to="/routes" className="options-btn">
             <div className="home-card-icon home-card-icon-search" aria-hidden="true" />
-            <p className="home-card-title">Search for stop by Stop ID</p>
+            <p className="home-card-title">Search by Stop ID</p>
             </Link>
           </div>
           
@@ -714,7 +728,8 @@ function HomePage() {
           */}
 
 
-        {/* Footer */}
+          {/*For now, hide
+        {/* Footer *}
         <footer className="home-footer">
           <div className="home-footer-left">
             <div className="home-logo-small-square" aria-hidden="true" />
@@ -738,6 +753,7 @@ function HomePage() {
             badgertransit ©2026 built for CS571
           </div>
         </footer>
+        */}
       </div>
     </main>
   );

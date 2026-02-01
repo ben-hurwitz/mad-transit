@@ -161,17 +161,21 @@
 
 /* little variations so they don't all look identical */
 .home-card-icon-star {
-  background-image: url(./assets/5btv2clock.svg);
+  background-image: url(./assets/mtv3homeclockicon.svg);
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: 60%;
   background-position: center;
+  align-self: center;
+  margin: 10px;
 }
 
 .home-card-icon-map {
-  background-image: url(./assets/5btv2map.svg);
+  background-image: url(./assets/mtv3homemapicon.svg);
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: 55%;
   background-position: center;
+  align-self: center;
+  margin: 10px;
 }
 
 .home-card-icon-location {
@@ -182,17 +186,21 @@
 }
 
 .home-card-icon-saved {
-  background-image: url(./assets/5btv2favorites.svg);
+  background-image: url(./assets/mtv3homestaricon.svg);
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: 60%;
   background-position: center;
+  align-self: center;
+  margin: 10px;
 }
 
 .home-card-icon-search {
-  background-image: url(./assets/5btv2search.svg);
+  background-image: url(./assets/mtv3homesearchicon.svg);
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: 60%;
   background-position: center;
+  align-self: center;
+  margin: 10px;
 }
 
 .home-card-icon-routes{
