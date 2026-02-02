@@ -569,7 +569,7 @@ function HomePage() {
         {/* Title */}
         <section className="home-hero" aria-labelledby="hero-title">
           <h1 id="hero-title" className="home-hero-title">
-            You're on a roll today.
+            You're on a roll today. {timeString}
           </h1>
         </section>
 
@@ -618,7 +618,7 @@ function HomePage() {
                       <div className="suggested-stop-card-right-left-top">
                         <div className="suggested-stop-card-info">
                           <div className="suggested-stop-card-info-top">
-                          <div className="suggested-stop-card-info-stop-name"><span className="suggest-stop-id">{stop.stop_id}</span>{stop.description} <span className="visit-count">{getVisitCount(stop.stop_id)} visits</span></div>
+                          <div className="suggested-stop-card-info-stop-name"><span className="suggest-stop-id">{stop.stop_id}</span>{stop.description} </div>
                             <div className="suggested-stop-card-info-route-chips">
                             {stop.routes && stop.routes.length > 0 && (
                               <div className="suggested-stop-routes">
@@ -659,6 +659,7 @@ function HomePage() {
                     </div>
                     <div className="suggested-stop-card-right-right">
                       <div className="suggested-stop-card-feet">{Math.round(stop.distanceFeet)} ft</div>
+                      <span className="visit-count">{getVisitCount(stop.stop_id)} visits</span>
                     </div>
                   </div>
                   
