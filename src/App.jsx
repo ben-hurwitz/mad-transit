@@ -487,9 +487,46 @@ function HomePage() {
     day: "numeric",
   });
 
+  const timeNew = now.toLocaleTimeString([], {
+    hour: "numeric",
+  });
+
+  const d = new Date();
+  const options = {
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hourCycle: 'h23' // Forces 24-hour format (00-23)
+};
+
+  const localTime24hr = d.toLocaleTimeString(navigator.language, options);
+  const hourOfDay = Number(d.toLocaleTimeString(navigator.language, options).substring(0,2));
+  let message = "Hey there";
+  let dayPeriod = "day";
+
+  if(hourOfDay <= 5){
+    message = "Its late! Limited buses running!"
+    dayPeriod = "evening";
+  }
+  if(hourOfDay > 5 && hourOfDay <= 11){
+    message = "Good Morning";
+    dayPeriod = "morning";
+  }
+
+  if(hourOfDay > 11 && hourOfDay <= 17){
+    message = "Good Afternoon";
+    dayPeriod = "afternoon";
+  }
+
+  if(hourOfDay > 17 && hourOfDay <= 24){
+    message = "Good Evening";
+    dayPeriod = "evening";
+  }
+
+
   return (
     <main className="home-root">
-      <div className="home-page-home-phone">
+      <div className={`home-page-home-phone-${dayPeriod}`}>
         {redirectInfo && (
           <div 
             className="smartlaunch-toast" 
@@ -569,7 +606,7 @@ function HomePage() {
         {/* Title */}
         <section className="home-hero" aria-labelledby="hero-title">
           <h1 id="hero-title" className="home-hero-title">
-            You're on a roll today. {timeString}
+            {message}
           </h1>
         </section>
 

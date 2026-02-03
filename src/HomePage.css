@@ -19,11 +19,11 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.95) 
 backdrop-filter: blur(10px);
 }
 
-.home-page-home-phone {
+.home-page-home-phone-evening {
 width: 100vw;
 max-width: none;
 margin: 0;
-background-image: url(./assets/mtv3homebackgroundDAY.jpg);
+background-image: url(./assets/mtv3homebackgroundEVENING.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size:cover;
@@ -35,6 +35,23 @@ flex-direction: column;
 gap: 16px;
 min-height: 100vh;
 }
+
+.home-page-home-phone-day home-page-home-phone-afternoon home-page-home-phone-morning {
+  width: 100vw;
+  max-width: none;
+  margin: 0;
+  background-image: url(./assets/mtv3homebackgroundDAY.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 100vh;
+  }
 
 .home-hero-title{
   color: #FFF;
