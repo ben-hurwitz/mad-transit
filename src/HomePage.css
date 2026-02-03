@@ -15,13 +15,13 @@ body {
 
 .page-vignette{
 width: 100%;
-height: 70vh;
+height: 50vh;
 position: absolute;
 background-color: #025BBB;
 bottom: 0;
 z-index: 0;
 background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.95) 95.19%);
-backdrop-filter: blur(10px);
+backdrop-filter: blur(3px);
 }
 
 .home-page-home-phone-evening {
@@ -57,6 +57,24 @@ min-height: 100vh;
   gap: 16px;
   min-height: 100vh;
   }
+
+  .home-page-home-phone-morning {
+    width: 100vw;
+    max-width: none;
+    margin: 0;
+    background-image: url(./assets/mtv3homebackgroundMORNING.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position:20%;
+    background-size:cover;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-height: 100vh;
+    }
 
 .home-hero-title{
   color: #FFF;
