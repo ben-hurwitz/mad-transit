@@ -983,10 +983,26 @@ box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
   box-shadow: 0 0 1.5px 0 rgba(0, 0, 0, 0.37) inset;
 }
 
-.bus-view-image{
+.bus-view-image-brt{
   width: 100%;
   height: 80%;
   background-image: url(./assets/mtv3nf60bus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bus-view-image-nf{
+  width: 100%;
+  height: 80%;
+  background-image: url(./assets/mtv3busnf40.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bus-view-image-gillig{
+  width: 100%;
+  height: 80%;
+  background-image: url(./assets/mtv3busgillig.svg);
   background-repeat: no-repeat;
   background-position: center;
 }

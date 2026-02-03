@@ -510,13 +510,13 @@ function HomePage() {
 
     document.body.style.setProperty('--body-bg', '#122C43');
   }
-  if(hourOfDay > 5 && hourOfDay <= 11){
+  if(hourOfDay > 5 && hourOfDay <= 10){
     message = "Good Morning";
     dayPeriod = "morning";
     document.body.style.setProperty('--body-bg', '#0F7896');
   }
 
-  if(hourOfDay > 11 && hourOfDay <= 17){
+  if(hourOfDay >= 11 && hourOfDay <= 17){
     message = "Good Afternoon";
     dayPeriod = "afternoon";
     document.body.style.setProperty('--body-bg', '#94A6B9');

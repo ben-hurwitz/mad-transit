@@ -39,6 +39,8 @@ const ROUTE_COLORS = {
   65: "#46AAD1",
 };
 
+document.body.style.setProperty('--body-bg', '#122C43');
+
 function getRouteColor(code) {
   return ROUTE_COLORS[code] || "#000000";
 }
@@ -345,7 +347,7 @@ function RegularBusCard({ pred, stopName, stopId, countdown, refreshSeconds }) {
                 <span>{pred.bus_type}</span>
               </div>
               <div className="bus-view-bottom">
-                <div className="bus-view-image"></div>
+                <div className={`bus-view-image-${pred.bus_image}`}></div>
                 <div className="bus-view-bottom-text">
                   <span>62 buses in fleet</span>
                   <span>Est. number of passengers onboard: {pred.passenger_count}</span>
