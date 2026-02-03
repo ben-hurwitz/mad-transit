@@ -41,7 +41,7 @@ gap: 16px;
 min-height: 100vh;
 }
 
-.home-page-home-phone-day home-page-home-phone-afternoon home-page-home-phone-morning {
+.home-page-home-phone-day, .home-page-home-phone-afternoon, .home-page-home-phone-morning {
   width: 100vw;
   max-width: none;
   margin: 0;
@@ -174,10 +174,10 @@ min-height: 100vh;
 .suggest-stop-id{
   color: #FFF;
   font-family: "Mona Sans";
-  font-size: 12px;
+  font-size: 11px;
   font-style: normal;
   font-weight: 800;
-  margin-right: 5px;
+  margin-right: 4px;
 }
 
 .visit-count{
@@ -203,7 +203,7 @@ min-height: 100vh;
   .suggested-stop-card-info-stop-name{
       color: #FFF;
       font-family: "Mona Sans";
-      font-size: 12px;
+      font-size: 11px;
       font-style: normal;
       font-weight: 800;
       white-space: nowrap;
@@ -240,7 +240,7 @@ min-height: 100vh;
   
 .suggested-stop-routes {
   display: flex;
-  gap: 2px;
+  gap: 1.5px;
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 2px;
@@ -250,13 +250,12 @@ min-height: 100vh;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 16px;
-  height: 15px;
-  padding: 0 8px;
+  width: 14px;
+  height: 14px;;
   border-radius: 4px;
   color: #fff;
   font-family: "Mona Sans";
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 600;
 }
 
