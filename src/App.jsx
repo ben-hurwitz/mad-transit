@@ -507,20 +507,25 @@ function HomePage() {
   if(hourOfDay <= 5){
     message = "Its late! Limited buses running!"
     dayPeriod = "evening";
+
+    document.body.style.setProperty('--body-bg', '#122C43');
   }
   if(hourOfDay > 5 && hourOfDay <= 11){
     message = "Good Morning";
     dayPeriod = "morning";
+    document.body.style.setProperty('--body-bg', '##94A6B9');
   }
 
   if(hourOfDay > 11 && hourOfDay <= 17){
     message = "Good Afternoon";
     dayPeriod = "afternoon";
+    document.body.style.setProperty('--body-bg', '##94A6B9');
   }
 
   if(hourOfDay > 17 && hourOfDay <= 24){
     message = "Good Evening";
     dayPeriod = "evening";
+    document.body.style.setProperty('--body-bg', '#122C43');
   }
 
 

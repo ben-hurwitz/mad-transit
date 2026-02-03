@@ -7,7 +7,7 @@
     left: 0;
     right: 0;
     z-index: 10000;
-    background: linear-gradient(180deg, #94A6B9 0%, rgba(148, 166, 185, 0.00) 100%);
+    background: linear-gradient(180deg, var(--body-bg, white) 0%, rgba(148, 166, 185, 0.00) 100%);
     backdrop-filter: blur(2px); 
     -webkit-backdrop-filter: blur(2px); /* Safari support */
   

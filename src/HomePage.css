@@ -4,9 +4,14 @@ home-hero{
 }
 
 body{
-background-color: #94A6B9;
-overflow: hidden;
+  background-color: #94A6B9;
+  overflow: hidden;
 }
+
+body {
+  background-color: var(--body-bg, white);
+}
+
 
 .page-vignette{
 width: 100%;
