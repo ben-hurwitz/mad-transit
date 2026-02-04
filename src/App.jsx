@@ -474,28 +474,33 @@ function HomePage() {
 
   const messages = {
     late: [
-      "Night owl commute 🦉",
-      "Late ride, respect",
-      "Quiet roads, loud thoughts",
-      "Last bus energy",
+      "Limited buses in service",
+      "It's late, limited bus service",
     ],
     morning: [
-      "Rise & ride ☀️",
+      "Rise & ride",
       "Morning, transit hero",
-      "Coffee? Bus? Both.",
-      "Bus before emails",
+      "Another day, another bus",
+    ],
+    day: [
+      "Taking the bus >>>",
+      "Bus mode: activated",
+      "Transit. Good Choice.",
+      "It's always good to see you!",
+      "You, me, and the bus.",
     ],
     afternoon: [
-      "Still ridin’, still winnin’",
-      "One stop closer",
-      "Smooth ride, big mood",
-      "Keep it rollin’",
+      "Taking the bus >>>",
+      "Bus mode: activated",
+      "Transit. Good Choice.",
+      "You, me, and the bus.",
+      "Good Afternoon"
     ],
     evening: [
-      "Evening glide 🌙",
-      "Homeward bound",
-      "Night ride vibes",
-      "Let’s get you home",
+      "Taking the bus >>>",
+      "Bus mode: activated",
+      "Transit. Good Choice.",
+      "Good Evening"
     ],
   };
   
@@ -506,6 +511,7 @@ let dayPeriod = "morning";
 
 if (hour <= 5) dayPeriod = "late";
 else if (hour <= 10) dayPeriod = "morning";
+else if (hour <= 13) dayPeriod = "day";
 else if (hour <= 17) dayPeriod = "afternoon";
 else dayPeriod = "evening";
 
