@@ -1,4 +1,9 @@
 /* src/Stop.css */
+body.stop-bg{
+  background-color: #FFF;
+  overflow-x: hidden;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -357,6 +362,17 @@ box-shadow: 0 1.2px 1px 0 rgba(140, 138, 138, 0.09);
 
 .bus-card-right{
   padding: 15px;
+  background-color: yellow;
+}
+
+.bus-card-right-null{
+  padding: 15px;
+}
+
+.bus-card-right-nay{
+  padding: 15px;
+  background-color: orange;
+  visibility: hidden;
 }
 
 

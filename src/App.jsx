@@ -320,6 +320,12 @@ function getRouteColor(code) {
 
 // === HOME PAGE ===
 function HomePage() {
+  useEffect(() => {
+    document.body.classList.add("home-bg");
+    window.scrollTo(0, 0);
+    return () => document.body.classList.remove("home-bg");
+  }, []);
+
   const navigate = useNavigate();
   const [redirectInfo, setRedirectInfo] = useState(null);
   const [suggestedStops, setSuggestedStops] = useState([]);
@@ -463,71 +469,73 @@ function HomePage() {
     };
   }, [navigate]);
 
-  const handleCancelRedirect = () => {
-    // mark as cancelled so even if timeout fires, it won't navigate
-    cancelledRef.current = true;
+  const pickRandom = (arr) =>
+    arr[Math.floor(Math.random() * arr.length)];
 
-    // Clear the timeout to prevent navigation
-    if (timeoutRef.current) {
-      window.clearTimeout(timeoutRef.current);
-      timeoutRef.current = null;
-    }
-    // Hide the toast
-    setRedirectInfo(null);
+  const messages = {
+    late: [
+      "Night owl commute 🦉",
+      "Late ride, respect",
+      "Quiet roads, loud thoughts",
+      "Last bus energy",
+    ],
+    morning: [
+      "Rise & ride ☀️",
+      "Morning, transit hero",
+      "Coffee? Bus? Both.",
+      "Bus before emails",
+    ],
+    afternoon: [
+      "Still ridin’, still winnin’",
+      "One stop closer",
+      "Smooth ride, big mood",
+      "Keep it rollin’",
+    ],
+    evening: [
+      "Evening glide 🌙",
+      "Homeward bound",
+      "Night ride vibes",
+      "Let’s get you home",
+    ],
   };
-
-  const now = new Date();
-  const timeString = now.toLocaleTimeString([], {
-    hour: "numeric",
-    minute: "2-digit",
-  });
-  const dateString = now.toLocaleDateString([], {
-    weekday: "short",
-    month: "short",
-    day: "numeric",
-  });
-
-  const timeNew = now.toLocaleTimeString([], {
-    hour: "numeric",
-  });
-
+  
   const d = new Date();
-  const options = {
-    hour: '2-digit',
-    minute: '2-digit',
-    second: '2-digit',
-    hourCycle: 'h23' // Forces 24-hour format (00-23)
+const hour = d.getHours();
+
+let dayPeriod = "morning";
+
+if (hour <= 5) dayPeriod = "late";
+else if (hour <= 10) dayPeriod = "morning";
+else if (hour <= 17) dayPeriod = "afternoon";
+else dayPeriod = "evening";
+
+const storedMessage = sessionStorage.getItem("greetingMessage");
+const storedPeriod = sessionStorage.getItem("greetingPeriod");
+
+let message;
+
+if (storedMessage && storedPeriod === dayPeriod) {
+  // Same session + same time period → reuse
+  message = storedMessage;
+} else {
+  // New session OR time period changed → pick new
+  message = pickRandom(messages[dayPeriod]);
+
+  sessionStorage.setItem("greetingMessage", message);
+  sessionStorage.setItem("greetingPeriod", dayPeriod);
+}
+
+const bgColors = {
+  late: "#122C43",
+  morning: "#0F7896",
+  afternoon: "#94A6B9",
+  evening: "#122C43",
 };
 
-  const localTime24hr = d.toLocaleTimeString(navigator.language, options);
-  const hourOfDay = Number(d.toLocaleTimeString(navigator.language, options).substring(0,2));
-  let message = "Hey there";
-  let dayPeriod = "day";
-
-  if(hourOfDay <= 5){
-    message = "Its late! Limited buses running!"
-    dayPeriod = "evening";
-
-    document.body.style.setProperty('--body-bg', '#122C43');
-  }
-  if(hourOfDay > 5 && hourOfDay <= 10){
-    message = "Good Morning";
-    dayPeriod = "morning";
-    document.body.style.setProperty('--body-bg', '#0F7896');
-  }
-
-  if(hourOfDay >= 11 && hourOfDay <= 17){
-    message = "Good Afternoon";
-    dayPeriod = "afternoon";
-    document.body.style.setProperty('--body-bg', '#94A6B9');
-  }
-
-  if(hourOfDay > 17 && hourOfDay <= 24){
-    message = "Good Evening";
-    dayPeriod = "evening";
-    document.body.style.setProperty('--body-bg', '#122C43');
-  }
-
+document.body.style.setProperty(
+  "--body-bg",
+  bgColors[dayPeriod]
+);
 
   return (
     <main className="home-root">
@@ -617,17 +625,24 @@ function HomePage() {
 
         {/* Suggested Stops Section */}
         {loadingSuggestions && (
+          <>
           <section className="suggestion-box" aria-labelledby="loading-title">
             <h2 id="loading-title" className="suggestion-title">
-              Loading suggested stops...
+              Loading Stops
             </h2>
           </section>
+          <section className="suggested-card-grid" aria-label="Suggested stops near you">
+            <div className="suggested-stop-card-loading"></div>
+            <div className="suggested-stop-card-loading"></div>
+            <div className="suggested-stop-card-loading"></div>
+          </section>
+          </>
         )}
 
         {!loadingSuggestions && suggestedStops.length === 0 && (
           <section className="suggestion-box" aria-labelledby="no-suggestions-title">
             <h2 id="no-suggestions-title" className="suggestion-title">
-              No nearby stops found (check console for details)
+              Failed to Load
             </h2>
           </section>
         )}

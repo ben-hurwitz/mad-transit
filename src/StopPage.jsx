@@ -39,7 +39,6 @@ const ROUTE_COLORS = {
   65: "#46AAD1",
 };
 
-document.body.style.setProperty('--body-bg', '#122C43');
 
 function getRouteColor(code) {
   return ROUTE_COLORS[code] || "#000000";
@@ -193,7 +192,7 @@ function RegularBusCard({ pred, stopName, stopId, countdown, refreshSeconds }) {
             </div>
           </div>
 
-          <div className="bus-card-right">
+          <div className={`bus-card-right-${pred.isTrackable}`}>
             <button
               className="bus-card-collapse"
               type="button"
@@ -459,6 +458,13 @@ function PopularTimesChart({ busynessData, dayOffset = 0 }) {
 }
 
 export default function StopPage() {
+  useEffect(() => {
+    document.body.classList.add("stop-bg");
+    window.scrollTo(0, 0);
+    return () => document.body.classList.remove("stop-bg");
+  
+  }, []);
+  
   const { stopId } = useParams();
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();

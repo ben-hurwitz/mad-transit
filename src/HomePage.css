@@ -7,8 +7,9 @@ body{
   background-color: #94A6B9;
 }
 
-body {
+body.home-bg {
   background-color: var(--body-bg, white);
+  overflow: hidden;
 }
 
 
@@ -135,6 +136,35 @@ min-height: 100vh;
   backdrop-filter: blur(2px);
   align-items: center;
 }
+
+.suggested-stop-card-loading {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  overflow: hidden;
+
+  border-radius: 22px;
+  border: 0.4px solid rgba(233, 233, 233, 0.25);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(2px);
+  align-items: center;
+
+  /* Animation */
+  animation: pulse-bg 1.6s ease-in-out infinite;
+}
+
+@keyframes pulse-bg {
+  0% {
+    background: rgba(65, 65, 65, 0.18);
+  }
+  50% {
+    background: rgba(132, 132, 132, 0.18);
+  }
+  100% {
+    background: rgba(65, 65, 65, 0.18);
+  }
+}
+
 
 .suggested-stop-card-right-left{
   width: 100%;

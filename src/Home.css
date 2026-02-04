@@ -8,6 +8,10 @@
   --text-muted: #4b5563;
 }
 
+/*For all pages, do not allow scrolling to the left or right*/
+body{
+  overflow-x: hidden;
+}
 
 .home-root {
   min-height: 100vh;
